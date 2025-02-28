@@ -37,7 +37,17 @@ class ProvinsiController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'name' => 'required|string|max:255|unique:provinsis,name',
+            'code' => 'required|string|max:10|unique:provinsis,code'
+        ]);
+
+        Provinsi::create([
+            'name' => $request->name,
+            'code' => $request->code
+        ]);
+
+        return redirect()->back()->with('success', 'store');
     }
 
     /**
@@ -71,7 +81,18 @@ class ProvinsiController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $request->validate([
+            'name' => 'required|string|max:255|unique:provinsis,name,' . $id,
+            'code' => 'required|string|max:10|unique:provinsis,code,' . $id
+        ]);
+
+        $provinsi = Provinsi::findOrFail($id);
+        $provinsi->update([
+            'name' => $request->name,
+            'code' => $request->code
+        ]);
+
+        return redirect()->back()->with('success', 'update');
     }
 
     /**
@@ -82,6 +103,10 @@ class ProvinsiController extends Controller
      */
     public function destroy($id)
     {
-        //
+        if (Provinsi::destroy($id)) {
+            return redirect()->route('provinsi.index')->with('success', 'destroy');
+        } else {
+            return redirect()->back()->with('fail', 'Gagal menghapus data bidang perguruan tinggi.');
+        }
     }
 }
