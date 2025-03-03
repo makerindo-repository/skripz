@@ -19,7 +19,7 @@ class PerguruanTinggiController extends Controller
      */
     public function index()
     {
-        $perguruan_tinggi = PerguruanTinggi::with(['provinsi', 'kabupaten', 'kecamatan', 'kelurahan'])->get();
+        $perguruan_tinggi = PerguruanTinggi::with(['provinsi', 'kabupaten', 'kecamatan', 'kelurahan'])->orderBy('provinsi_id')->orderBy('kabupaten_id')->get();
         $provinsis  = Provinsi::all();
         $kabupatens = Kabupaten::all();
         $kecamatans = Kecamatan::all();
