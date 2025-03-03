@@ -36,45 +36,49 @@ class MitraController extends Controller
             'nama_mitra'        => 'required|string|max:255',
             'bidang_usaha'      => 'required|string|max:255',
             'alamat_mitra'      => 'required|string|max:255',
-            'email_mitra'       => 'required|string|max:255',
+            'email_mitra'       => 'required|string|email|max:255|unique:users,email',
             'no_telepon_mitra'  => 'required|string|max:255',
-            'website'           => 'required|string|max:255',
+            'website'           => 'nullable|string|max:255',
             'penanggung_jawab'  => 'required|string|max:255',
             'jabatan_pj'        => 'required|string|max:255',
-            'email_pj'          => 'required|string|max:255',
+            'email_pj'          => 'required|string|email|max:255',
             'no_telepon_pj'     => 'required|string|max:255',
-            'deskripsi'         => 'required|string|max:255',
+            'deskripsi'         => 'required|string|max:1000',
             'logo'              => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
         ]);
-        $mitra = new Mitra;
 
-        // Simpan logo ke dalam folder public/images/tim
+        $user = User::where('email', $request->email_mitra)->first();
+        if ($user) {
+            return redirect()->back()->with('error', 'Email sudah terdaftar. Gunakan email lain.');
+        }
+
         $imageName = time() . '_' . $request->file('logo')->getClientOriginalName();
         $request->file('logo')->move(public_path('images/mitra'), $imageName);
 
-        $user = new User();
-        $user->name         = $request->nama_mitra;
-        $user->email        = $request->email_mitra;
-        $user->role_id      = 4;
-        $user->foto         = 'images/mitra/'. $imageName;
-        $user->password     = bcrypt('password');
-        $user->save();
+        $user = User::create([
+            'name'     => $request->nama_mitra,
+            'email'    => $request->email_mitra,
+            'role_id'  => 4,
+            'foto'     => 'images/mitra/' . $imageName,
+            'password' => Hash::make('password'),
+        ]);
 
-        $mitra->user_id             = $user->id;
-        $mitra->nama_mitra          = $request->nama_mitra;
-        $mitra->bidang_usaha        = $request->bidang_usaha;
-        $mitra->alamat_mitra        = $request->alamat_mitra;
-        $mitra->email_mitra         = $request->email_mitra;
-        $mitra->no_telepon_mitra    = $request->no_telepon_mitra;
-        $mitra->website             = $request->website;
-        $mitra->penanggung_jawab    = $request->penanggung_jawab;
-        $mitra->jabatan_pj          = $request->jabatan_pj;
-        $mitra->email_pj            = $request->email_pj;
-        $mitra->no_telepon_pj       = $request->no_telepon_pj;
-        $mitra->deskripsi           = $request->deskripsi;
-        $mitra->slug                = Str::slug($request->nama_mitra, '-');
-        $mitra->logo                = 'images/mitra/' . $imageName;
-        $mitra->save();
+        Mitra::create([
+            'user_id'            => $user->id,
+            'nama_mitra'         => $request->nama_mitra,
+            'bidang_usaha'       => $request->bidang_usaha,
+            'alamat_mitra'       => $request->alamat_mitra,
+            'email_mitra'        => $request->email_mitra,
+            'no_telepon_mitra'   => $request->no_telepon_mitra,
+            'website'            => $request->website,
+            'penanggung_jawab'   => $request->penanggung_jawab,
+            'jabatan_pj'         => $request->jabatan_pj,
+            'email_pj'           => $request->email_pj,
+            'no_telepon_pj'      => $request->no_telepon_pj,
+            'deskripsi'          => $request->deskripsi,
+            'slug'               => Str::slug($request->nama_mitra, '-'),
+            'logo'               => 'images/mitra/' . $imageName,
+        ]);
 
         return redirect()->route('mitra.index')->with('success', 'store');
     }
@@ -107,25 +111,28 @@ class MitraController extends Controller
             'nama_mitra'        => 'required|string|max:255',
             'bidang_usaha'      => 'required|string|max:255',
             'alamat_mitra'      => 'required|string|max:255',
-            'email_mitra'       => 'required|string|max:255',
+            'email_mitra'       => 'required|string|email|max:255|unique:mitras,email_mitra,' . $id,
             'no_telepon_mitra'  => 'required|string|max:255',
-            'website'           => 'required|string|max:255',
+            'website'           => 'nullable|string|max:255',
             'penanggung_jawab'  => 'required|string|max:255',
             'jabatan_pj'        => 'required|string|max:255',
-            'email_pj'          => 'required|string|max:255',
+            'email_pj'          => 'required|string|email|max:255',
             'no_telepon_pj'     => 'required|string|max:255',
             'deskripsi'         => 'required|string|max:255',
-            'logo'              => 'image|mimes:jpeg,png,jpg,gif|max:2048',
+            'logo'              => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
         ]);
+
         $mitra = Mitra::findOrFail($id);
+        $imageName = $mitra->logo; // Default pakai logo lama
+
         if ($request->hasFile('logo')) {
-            // Hapus logo sebelumnya jika ada
+            // Hapus logo lama jika ada
             if ($mitra->logo && file_exists(public_path($mitra->logo))) {
                 unlink(public_path($mitra->logo));
             }
 
             $file = $request->file('logo');
-            $imageName = strtoupper(Str::random(5)) . '-' . rand() . '-' . time() . '.' . $file->getClientOriginalExtension();
+            $imageName = 'images/mitra/' . strtoupper(Str::random(5)) . '-' . rand() . '-' . time() . '.' . $file->getClientOriginalExtension();
             $file->move(public_path('images/mitra'), $imageName);
         }
 
@@ -135,20 +142,21 @@ class MitraController extends Controller
             'alamat_mitra'      => $request->alamat_mitra,
             'email_mitra'       => $request->email_mitra,
             'no_telepon_mitra'  => $request->no_telepon_mitra,
-            'website'           => $request->website,
+            'website'           => $request->website ?? '',
             'penanggung_jawab'  => $request->penanggung_jawab,
             'jabatan_pj'        => $request->jabatan_pj,
             'email_pj'          => $request->email_pj,
             'no_telepon_pj'     => $request->no_telepon_pj,
             'deskripsi'         => $request->deskripsi,
             'slug'              => Str::slug($request->nama_mitra, '-'),
-            'logo'              => isset($imageName) ? 'images/mitra/' . $imageName : $mitra->logo,
+            'logo'              => $imageName,
         ]);
+
         $user = User::findOrFail($mitra->user_id);
         $user->update([
-            'name'         => $request->nama_mitra,
-            'email'        => $request->email_mitra,
-            'foto'         => isset($imageName) ? 'images/mitra/' . $imageName : $mitra->logo,
+            'name' => $request->nama_mitra,
+            'email' => $request->email_mitra,
+            'foto' => $imageName,
         ]);
 
         return redirect()->route('mitra.index')->with('success', 'update');
