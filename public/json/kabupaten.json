@@ -5,6 +5,7 @@
         "name": "Aceh Barat",
         "code": "05",
         "full_code": "1105",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 1
     },
     {
@@ -13,6 +14,7 @@
         "name": "Aceh Barat Daya",
         "code": "12",
         "full_code": "1112",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 1
     },
     {
@@ -21,6 +23,7 @@
         "name": "Sabu Raijua",
         "code": "20",
         "full_code": "5320",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 23
     },
     {
@@ -29,6 +32,7 @@
         "name": "Salatiga",
         "code": "73",
         "full_code": "3373",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -37,6 +41,7 @@
         "name": "Aceh Besar",
         "code": "06",
         "full_code": "1106",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 1
     },
     {
@@ -45,6 +50,7 @@
         "name": "Aceh Jaya",
         "code": "14",
         "full_code": "1114",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 1
     },
     {
@@ -53,6 +59,7 @@
         "name": "Aceh Selatan",
         "code": "01",
         "full_code": "1101",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 1
     },
     {
@@ -61,6 +68,7 @@
         "name": "Aceh Singkil",
         "code": "10",
         "full_code": "1110",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 1
     },
     {
@@ -69,6 +77,7 @@
         "name": "Aceh Tamiang",
         "code": "16",
         "full_code": "1116",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 1
     },
     {
@@ -77,6 +86,7 @@
         "name": "Aceh Tengah",
         "code": "04",
         "full_code": "1104",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 1
     },
     {
@@ -85,6 +95,7 @@
         "name": "Aceh Tenggara",
         "code": "02",
         "full_code": "1102",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 1
     },
     {
@@ -93,6 +104,7 @@
         "name": "Aceh Timur",
         "code": "03",
         "full_code": "1103",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 1
     },
     {
@@ -101,6 +113,7 @@
         "name": "Gorontalo Utara",
         "code": "05",
         "full_code": "7505",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 7
     },
     {
@@ -109,6 +122,7 @@
         "name": "Aceh Utara",
         "code": "08",
         "full_code": "1108",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 1
     },
     {
@@ -117,6 +131,7 @@
         "name": "Agam",
         "code": "06",
         "full_code": "1306",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 36
     },
     {
@@ -125,6 +140,7 @@
         "name": "Alor",
         "code": "05",
         "full_code": "5305",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 23
     },
     {
@@ -133,6 +149,7 @@
         "name": "Ambon",
         "code": "71",
         "full_code": "8171",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 20
     },
     {
@@ -141,6 +158,7 @@
         "name": "Gowa",
         "code": "06",
         "full_code": "7306",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 32
     },
     {
@@ -149,6 +167,7 @@
         "name": "Samarinda",
         "code": "72",
         "full_code": "6472",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 15
     },
     {
@@ -157,6 +176,7 @@
         "name": "Asahan",
         "code": "09",
         "full_code": "1209",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -165,6 +185,7 @@
         "name": "Sambas",
         "code": "01",
         "full_code": "6101",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 12
     },
     {
@@ -173,6 +194,7 @@
         "name": "Asmat",
         "code": "04",
         "full_code": "9304",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 28
     },
     {
@@ -181,6 +203,7 @@
         "name": "Samosir",
         "code": "17",
         "full_code": "1217",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -189,6 +212,7 @@
         "name": "Badung",
         "code": "03",
         "full_code": "5103",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 2
     },
     {
@@ -197,6 +221,7 @@
         "name": "Sampang",
         "code": "27",
         "full_code": "3527",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -205,6 +230,7 @@
         "name": "Balangan",
         "code": "11",
         "full_code": "6311",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 13
     },
     {
@@ -213,6 +239,7 @@
         "name": "Sanggau",
         "code": "03",
         "full_code": "6103",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 12
     },
     {
@@ -221,6 +248,7 @@
         "name": "Sarmi",
         "code": "10",
         "full_code": "9110",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 24
     },
     {
@@ -229,6 +257,7 @@
         "name": "Gresik",
         "code": "25",
         "full_code": "3525",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -237,6 +266,7 @@
         "name": "Grobogan",
         "code": "15",
         "full_code": "3315",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -245,6 +275,7 @@
         "name": "Gunung Mas",
         "code": "10",
         "full_code": "6210",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 14
     },
     {
@@ -253,6 +284,7 @@
         "name": "Gunungkidul",
         "code": "03",
         "full_code": "3403",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 5
     },
     {
@@ -261,6 +293,7 @@
         "name": "Sarolangun",
         "code": "03",
         "full_code": "1503",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 8
     },
     {
@@ -269,6 +302,7 @@
         "name": "Gunungsitoli",
         "code": "78",
         "full_code": "1278",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -277,6 +311,7 @@
         "name": "Sawahlunto",
         "code": "73",
         "full_code": "1373",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 36
     },
     {
@@ -285,6 +320,7 @@
         "name": "Halmahera Barat",
         "code": "01",
         "full_code": "8201",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 21
     },
     {
@@ -293,6 +329,7 @@
         "name": "Sekadau",
         "code": "09",
         "full_code": "6109",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 12
     },
     {
@@ -301,6 +338,7 @@
         "name": "Halmahera Selatan",
         "code": "04",
         "full_code": "8204",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 21
     },
     {
@@ -309,6 +347,7 @@
         "name": "Seluma",
         "code": "05",
         "full_code": "1705",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 4
     },
     {
@@ -317,6 +356,7 @@
         "name": "Halmahera Tengah",
         "code": "02",
         "full_code": "8202",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 21
     },
     {
@@ -325,6 +365,7 @@
         "name": "Semarang",
         "code": "22",
         "full_code": "3322",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -333,6 +374,7 @@
         "name": "Semarang",
         "code": "74",
         "full_code": "3374",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -341,6 +383,7 @@
         "name": "Halmahera Timur",
         "code": "06",
         "full_code": "8206",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 21
     },
     {
@@ -349,6 +392,7 @@
         "name": "Seram Bagian Barat",
         "code": "06",
         "full_code": "8106",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 20
     },
     {
@@ -357,6 +401,7 @@
         "name": "Halmahera Utara",
         "code": "03",
         "full_code": "8203",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 21
     },
     {
@@ -365,6 +410,7 @@
         "name": "Seram Bagian Timur",
         "code": "05",
         "full_code": "8105",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 20
     },
     {
@@ -373,6 +419,7 @@
         "name": "Hulu Sungai Selatan",
         "code": "06",
         "full_code": "6306",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 13
     },
     {
@@ -381,6 +428,7 @@
         "name": "Hulu Sungai Tengah",
         "code": "07",
         "full_code": "6307",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 13
     },
     {
@@ -389,6 +437,7 @@
         "name": "Hulu Sungai Utara",
         "code": "08",
         "full_code": "6308",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 13
     },
     {
@@ -397,6 +446,7 @@
         "name": "Serang",
         "code": "73",
         "full_code": "3673",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 3
     },
     {
@@ -405,6 +455,7 @@
         "name": "Serang",
         "code": "04",
         "full_code": "3604",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 3
     },
     {
@@ -413,6 +464,7 @@
         "name": "Humbang Hasundutan",
         "code": "16",
         "full_code": "1216",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -421,6 +473,7 @@
         "name": "Balikpapan",
         "code": "71",
         "full_code": "6471",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 15
     },
     {
@@ -429,6 +482,7 @@
         "name": "Indragiri Hilir",
         "code": "04",
         "full_code": "1404",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 30
     },
     {
@@ -437,6 +491,7 @@
         "name": "Indragiri Hulu",
         "code": "02",
         "full_code": "1402",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 30
     },
     {
@@ -445,6 +500,7 @@
         "name": "Banda Aceh",
         "code": "71",
         "full_code": "1171",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 1
     },
     {
@@ -453,6 +509,7 @@
         "name": "Bandar Lampung",
         "code": "71",
         "full_code": "1871",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 19
     },
     {
@@ -461,6 +518,7 @@
         "name": "Bandung",
         "code": "73",
         "full_code": "3273",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 9
     },
     {
@@ -469,6 +527,7 @@
         "name": "Bandung",
         "code": "04",
         "full_code": "3204",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 9
     },
     {
@@ -477,6 +536,7 @@
         "name": "Bandung Barat",
         "code": "17",
         "full_code": "3217",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 9
     },
     {
@@ -485,6 +545,7 @@
         "name": "Banggai",
         "code": "01",
         "full_code": "7201",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 33
     },
     {
@@ -493,6 +554,7 @@
         "name": "Banggai Kepulauan",
         "code": "07",
         "full_code": "7207",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 33
     },
     {
@@ -501,6 +563,7 @@
         "name": "Banggai Laut",
         "code": "11",
         "full_code": "7211",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 33
     },
     {
@@ -509,6 +572,7 @@
         "name": "Bangka",
         "code": "01",
         "full_code": "1901",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 17
     },
     {
@@ -517,6 +581,7 @@
         "name": "Bangka Barat",
         "code": "05",
         "full_code": "1905",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 17
     },
     {
@@ -525,6 +590,7 @@
         "name": "Bangka Selatan",
         "code": "03",
         "full_code": "1903",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 17
     },
     {
@@ -533,6 +599,7 @@
         "name": "Bangka Tengah",
         "code": "04",
         "full_code": "1904",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 17
     },
     {
@@ -541,6 +608,7 @@
         "name": "Bangkalan",
         "code": "26",
         "full_code": "3526",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -549,6 +617,7 @@
         "name": "Bangli",
         "code": "06",
         "full_code": "5106",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 2
     },
     {
@@ -557,6 +626,7 @@
         "name": "Banjar",
         "code": "79",
         "full_code": "3279",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 9
     },
     {
@@ -565,6 +635,7 @@
         "name": "Banjar",
         "code": "03",
         "full_code": "6303",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 13
     },
     {
@@ -573,6 +644,7 @@
         "name": "Banjarbaru",
         "code": "72",
         "full_code": "6372",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 13
     },
     {
@@ -581,6 +653,7 @@
         "name": "Banjarmasin",
         "code": "71",
         "full_code": "6371",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 13
     },
     {
@@ -589,6 +662,7 @@
         "name": "Banjarnegara",
         "code": "04",
         "full_code": "3304",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -597,6 +671,7 @@
         "name": "Bantaeng",
         "code": "03",
         "full_code": "7303",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 32
     },
     {
@@ -605,6 +680,7 @@
         "name": "Bantul",
         "code": "02",
         "full_code": "3402",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 5
     },
     {
@@ -613,6 +689,7 @@
         "name": "Banyuasin",
         "code": "07",
         "full_code": "1607",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 37
     },
     {
@@ -621,6 +698,7 @@
         "name": "Banyumas",
         "code": "02",
         "full_code": "3302",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -629,6 +707,7 @@
         "name": "Banyuwangi",
         "code": "10",
         "full_code": "3510",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -637,6 +716,7 @@
         "name": "Barito Kuala",
         "code": "04",
         "full_code": "6304",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 13
     },
     {
@@ -645,6 +725,7 @@
         "name": "Barito Selatan",
         "code": "04",
         "full_code": "6204",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 14
     },
     {
@@ -653,6 +734,7 @@
         "name": "Barito Timur",
         "code": "13",
         "full_code": "6213",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 14
     },
     {
@@ -661,6 +743,7 @@
         "name": "Barito Utara",
         "code": "05",
         "full_code": "6205",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 14
     },
     {
@@ -669,6 +752,7 @@
         "name": "Barru",
         "code": "11",
         "full_code": "7311",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 32
     },
     {
@@ -677,6 +761,7 @@
         "name": "Batam",
         "code": "71",
         "full_code": "2171",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 18
     },
     {
@@ -685,6 +770,7 @@
         "name": "Batang",
         "code": "25",
         "full_code": "3325",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -693,6 +779,7 @@
         "name": "Batanghari",
         "code": "04",
         "full_code": "1504",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 8
     },
     {
@@ -701,6 +788,7 @@
         "name": "Batu",
         "code": "79",
         "full_code": "3579",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -709,6 +797,7 @@
         "name": "Batu Bara",
         "code": "19",
         "full_code": "1219",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -717,6 +806,7 @@
         "name": "Bau Bau",
         "code": "72",
         "full_code": "7472",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 34
     },
     {
@@ -725,6 +815,7 @@
         "name": "Bekasi",
         "code": "75",
         "full_code": "3275",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 9
     },
     {
@@ -733,6 +824,7 @@
         "name": "Bekasi",
         "code": "16",
         "full_code": "3216",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 9
     },
     {
@@ -741,6 +833,7 @@
         "name": "Belitung",
         "code": "02",
         "full_code": "1902",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 17
     },
     {
@@ -749,6 +842,7 @@
         "name": "Belitung Timur",
         "code": "06",
         "full_code": "1906",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 17
     },
     {
@@ -757,6 +851,7 @@
         "name": "Belu",
         "code": "04",
         "full_code": "5304",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 23
     },
     {
@@ -765,6 +860,7 @@
         "name": "Bener Meriah",
         "code": "17",
         "full_code": "1117",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 1
     },
     {
@@ -773,6 +869,7 @@
         "name": "Bengkalis",
         "code": "03",
         "full_code": "1403",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 30
     },
     {
@@ -781,6 +878,7 @@
         "name": "Bengkayang",
         "code": "07",
         "full_code": "6107",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 12
     },
     {
@@ -789,6 +887,7 @@
         "name": "Serdang Bedagai",
         "code": "18",
         "full_code": "1218",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -797,6 +896,7 @@
         "name": "Bengkulu",
         "code": "71",
         "full_code": "1771",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 4
     },
     {
@@ -805,6 +905,7 @@
         "name": "Bengkulu Selatan",
         "code": "01",
         "full_code": "1701",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 4
     },
     {
@@ -813,6 +914,7 @@
         "name": "Seruyan",
         "code": "07",
         "full_code": "6207",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 14
     },
     {
@@ -821,6 +923,7 @@
         "name": "Indramayu",
         "code": "12",
         "full_code": "3212",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 9
     },
     {
@@ -829,6 +932,7 @@
         "name": "Siak",
         "code": "08",
         "full_code": "1408",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 30
     },
     {
@@ -837,6 +941,7 @@
         "name": "Intan Jaya",
         "code": "07",
         "full_code": "9407",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 29
     },
     {
@@ -845,6 +950,7 @@
         "name": "Jakarta Barat",
         "code": "73",
         "full_code": "3173",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 6
     },
     {
@@ -853,6 +959,7 @@
         "name": "Sibolga",
         "code": "73",
         "full_code": "1273",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -861,6 +968,7 @@
         "name": "Bengkulu Tengah",
         "code": "09",
         "full_code": "1709",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 4
     },
     {
@@ -869,6 +977,7 @@
         "name": "Jakarta Pusat",
         "code": "71",
         "full_code": "3171",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 6
     },
     {
@@ -877,6 +986,7 @@
         "name": "Sidenreng Rappang",
         "code": "14",
         "full_code": "7314",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 32
     },
     {
@@ -885,6 +995,7 @@
         "name": "Bengkulu Utara",
         "code": "03",
         "full_code": "1703",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 4
     },
     {
@@ -893,6 +1004,7 @@
         "name": "Jakarta Selatan",
         "code": "74",
         "full_code": "3174",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 6
     },
     {
@@ -901,6 +1013,7 @@
         "name": "Sidoarjo",
         "code": "15",
         "full_code": "3515",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -909,6 +1022,7 @@
         "name": "Jakarta Timur",
         "code": "75",
         "full_code": "3175",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 6
     },
     {
@@ -917,6 +1031,7 @@
         "name": "Sigi",
         "code": "10",
         "full_code": "7210",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 33
     },
     {
@@ -925,6 +1040,7 @@
         "name": "Berau",
         "code": "03",
         "full_code": "6403",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 15
     },
     {
@@ -933,6 +1049,7 @@
         "name": "Biak Numfor",
         "code": "06",
         "full_code": "9106",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 24
     },
     {
@@ -941,6 +1058,7 @@
         "name": "Bima",
         "code": "06",
         "full_code": "5206",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 22
     },
     {
@@ -949,6 +1067,7 @@
         "name": "Jakarta Utara",
         "code": "72",
         "full_code": "3172",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 6
     },
     {
@@ -957,6 +1076,7 @@
         "name": "Bima",
         "code": "72",
         "full_code": "5272",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 22
     },
     {
@@ -965,6 +1085,7 @@
         "name": "Jambi",
         "code": "71",
         "full_code": "1571",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 8
     },
     {
@@ -973,6 +1094,7 @@
         "name": "Sijunjung",
         "code": "03",
         "full_code": "1303",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 36
     },
     {
@@ -981,6 +1103,7 @@
         "name": "Binjai",
         "code": "75",
         "full_code": "1275",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -989,6 +1112,7 @@
         "name": "Jayapura",
         "code": "03",
         "full_code": "9103",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 24
     },
     {
@@ -997,6 +1121,7 @@
         "name": "Bintan",
         "code": "01",
         "full_code": "2101",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 18
     },
     {
@@ -1005,6 +1130,7 @@
         "name": "Sikka",
         "code": "07",
         "full_code": "5307",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 23
     },
     {
@@ -1013,6 +1139,7 @@
         "name": "Bireuen",
         "code": "11",
         "full_code": "1111",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 1
     },
     {
@@ -1021,6 +1148,7 @@
         "name": "Simalungun",
         "code": "08",
         "full_code": "1208",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -1029,6 +1157,7 @@
         "name": "Bitung",
         "code": "72",
         "full_code": "7172",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 35
     },
     {
@@ -1037,6 +1166,7 @@
         "name": "Jayapura",
         "code": "71",
         "full_code": "9171",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 24
     },
     {
@@ -1045,6 +1175,7 @@
         "name": "Simeulue",
         "code": "09",
         "full_code": "1109",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 1
     },
     {
@@ -1053,6 +1184,7 @@
         "name": "Jayawijaya",
         "code": "01",
         "full_code": "9501",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 27
     },
     {
@@ -1061,6 +1193,7 @@
         "name": "Jember",
         "code": "09",
         "full_code": "3509",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -1069,6 +1202,7 @@
         "name": "Singkawang",
         "code": "72",
         "full_code": "6172",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 12
     },
     {
@@ -1077,6 +1211,7 @@
         "name": "Blitar",
         "code": "05",
         "full_code": "3505",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -1085,6 +1220,7 @@
         "name": "Jembrana",
         "code": "01",
         "full_code": "5101",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 2
     },
     {
@@ -1093,6 +1229,7 @@
         "name": "Sinjai",
         "code": "07",
         "full_code": "7307",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 32
     },
     {
@@ -1101,6 +1238,7 @@
         "name": "Blitar",
         "code": "72",
         "full_code": "3572",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -1109,6 +1247,7 @@
         "name": "Jeneponto",
         "code": "04",
         "full_code": "7304",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 32
     },
     {
@@ -1117,6 +1256,7 @@
         "name": "Blora",
         "code": "16",
         "full_code": "3316",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -1125,6 +1265,7 @@
         "name": "Jepara",
         "code": "20",
         "full_code": "3320",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -1133,6 +1274,7 @@
         "name": "Sintang",
         "code": "05",
         "full_code": "6105",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 12
     },
     {
@@ -1141,6 +1283,7 @@
         "name": "Boalemo",
         "code": "02",
         "full_code": "7502",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 7
     },
     {
@@ -1149,6 +1292,7 @@
         "name": "Jombang",
         "code": "17",
         "full_code": "3517",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -1157,6 +1301,7 @@
         "name": "Bogor",
         "code": "01",
         "full_code": "3201",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 9
     },
     {
@@ -1165,6 +1310,7 @@
         "name": "Situbondo",
         "code": "12",
         "full_code": "3512",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -1173,6 +1319,7 @@
         "name": "Kaimana",
         "code": "08",
         "full_code": "9208",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 25
     },
     {
@@ -1181,6 +1328,7 @@
         "name": "Bogor",
         "code": "71",
         "full_code": "3271",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 9
     },
     {
@@ -1189,6 +1337,7 @@
         "name": "Sleman",
         "code": "04",
         "full_code": "3404",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 5
     },
     {
@@ -1197,6 +1346,7 @@
         "name": "Kampar",
         "code": "01",
         "full_code": "1401",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 30
     },
     {
@@ -1205,6 +1355,7 @@
         "name": "Bojonegoro",
         "code": "22",
         "full_code": "3522",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -1213,6 +1364,7 @@
         "name": "Solok",
         "code": "02",
         "full_code": "1302",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 36
     },
     {
@@ -1221,6 +1373,7 @@
         "name": "Bolaang Mongondow",
         "code": "01",
         "full_code": "7101",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 35
     },
     {
@@ -1229,6 +1382,7 @@
         "name": "Bolaang Mongondow Selatan",
         "code": "11",
         "full_code": "7111",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 35
     },
     {
@@ -1237,6 +1391,7 @@
         "name": "Solok",
         "code": "72",
         "full_code": "1372",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 36
     },
     {
@@ -1245,6 +1400,7 @@
         "name": "Kapuas",
         "code": "03",
         "full_code": "6203",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 14
     },
     {
@@ -1253,6 +1409,7 @@
         "name": "Solok Selatan",
         "code": "11",
         "full_code": "1311",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 36
     },
     {
@@ -1261,6 +1418,7 @@
         "name": "Bolaang Mongondow Timur",
         "code": "10",
         "full_code": "7110",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 35
     },
     {
@@ -1269,6 +1427,7 @@
         "name": "Kapuas Hulu",
         "code": "06",
         "full_code": "6106",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 12
     },
     {
@@ -1277,6 +1436,7 @@
         "name": "Karanganyar",
         "code": "13",
         "full_code": "3313",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -1285,6 +1445,7 @@
         "name": "Karangasem",
         "code": "07",
         "full_code": "5107",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 2
     },
     {
@@ -1293,6 +1454,7 @@
         "name": "Bolaang Mongondow Utara",
         "code": "08",
         "full_code": "7108",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 35
     },
     {
@@ -1301,6 +1463,7 @@
         "name": "Karawang",
         "code": "15",
         "full_code": "3215",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 9
     },
     {
@@ -1309,6 +1472,7 @@
         "name": "Bombana",
         "code": "06",
         "full_code": "7406",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 34
     },
     {
@@ -1317,6 +1481,7 @@
         "name": "Karimun",
         "code": "02",
         "full_code": "2102",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 18
     },
     {
@@ -1325,6 +1490,7 @@
         "name": "Bondowoso",
         "code": "11",
         "full_code": "3511",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -1333,6 +1499,7 @@
         "name": "Karo",
         "code": "06",
         "full_code": "1206",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -1341,6 +1508,7 @@
         "name": "Soppeng",
         "code": "12",
         "full_code": "7312",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 32
     },
     {
@@ -1349,6 +1517,7 @@
         "name": "Katingan",
         "code": "06",
         "full_code": "6206",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 14
     },
     {
@@ -1357,6 +1526,7 @@
         "name": "Kaur",
         "code": "04",
         "full_code": "1704",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 4
     },
     {
@@ -1365,6 +1535,7 @@
         "name": "Sorong",
         "code": "01",
         "full_code": "9201",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 26
     },
     {
@@ -1373,6 +1544,7 @@
         "name": "Kayong Utara",
         "code": "11",
         "full_code": "6111",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 12
     },
     {
@@ -1381,6 +1553,7 @@
         "name": "Sorong",
         "code": "71",
         "full_code": "9271",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 26
     },
     {
@@ -1389,6 +1562,7 @@
         "name": "Sorong Selatan",
         "code": "04",
         "full_code": "9204",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 26
     },
     {
@@ -1397,6 +1571,7 @@
         "name": "Kebumen",
         "code": "05",
         "full_code": "3305",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -1405,6 +1580,7 @@
         "name": "Sragen",
         "code": "14",
         "full_code": "3314",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -1413,6 +1589,7 @@
         "name": "Kediri",
         "code": "06",
         "full_code": "3506",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -1421,6 +1598,7 @@
         "name": "Subang",
         "code": "13",
         "full_code": "3213",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 9
     },
     {
@@ -1429,6 +1607,7 @@
         "name": "Subulussalam",
         "code": "75",
         "full_code": "1175",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 1
     },
     {
@@ -1437,6 +1616,7 @@
         "name": "Sukabumi",
         "code": "72",
         "full_code": "3272",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 9
     },
     {
@@ -1445,6 +1625,7 @@
         "name": "Kediri",
         "code": "71",
         "full_code": "3571",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -1453,6 +1634,7 @@
         "name": "Bone",
         "code": "08",
         "full_code": "7308",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 32
     },
     {
@@ -1461,6 +1643,7 @@
         "name": "Keerom",
         "code": "11",
         "full_code": "9111",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 24
     },
     {
@@ -1469,6 +1652,7 @@
         "name": "Sukabumi",
         "code": "02",
         "full_code": "3202",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 9
     },
     {
@@ -1477,6 +1661,7 @@
         "name": "Bone Bolango",
         "code": "03",
         "full_code": "7503",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 7
     },
     {
@@ -1485,6 +1670,7 @@
         "name": "Kendal",
         "code": "24",
         "full_code": "3324",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -1493,6 +1679,7 @@
         "name": "Bontang",
         "code": "74",
         "full_code": "6474",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 15
     },
     {
@@ -1501,6 +1688,7 @@
         "name": "Kendari",
         "code": "71",
         "full_code": "7471",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 34
     },
     {
@@ -1509,6 +1697,7 @@
         "name": "Boven Digoel",
         "code": "02",
         "full_code": "9302",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 28
     },
     {
@@ -1517,6 +1706,7 @@
         "name": "Kepahiang",
         "code": "08",
         "full_code": "1708",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 4
     },
     {
@@ -1525,6 +1715,7 @@
         "name": "Boyolali",
         "code": "09",
         "full_code": "3309",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -1533,6 +1724,7 @@
         "name": "Sukamara",
         "code": "08",
         "full_code": "6208",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 14
     },
     {
@@ -1541,6 +1733,7 @@
         "name": "Kepulauan Anambas",
         "code": "05",
         "full_code": "2105",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 18
     },
     {
@@ -1549,6 +1742,7 @@
         "name": "Sukoharjo",
         "code": "11",
         "full_code": "3311",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -1557,6 +1751,7 @@
         "name": "Sumba Barat",
         "code": "12",
         "full_code": "5312",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 23
     },
     {
@@ -1565,6 +1760,7 @@
         "name": "Brebes",
         "code": "29",
         "full_code": "3329",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -1573,6 +1769,7 @@
         "name": "Bukittinggi",
         "code": "75",
         "full_code": "1375",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 36
     },
     {
@@ -1581,6 +1778,7 @@
         "name": "Buleleng",
         "code": "08",
         "full_code": "5108",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 2
     },
     {
@@ -1589,6 +1787,7 @@
         "name": "Bulukumba",
         "code": "02",
         "full_code": "7302",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 32
     },
     {
@@ -1597,6 +1796,7 @@
         "name": "Sumba Barat Daya",
         "code": "18",
         "full_code": "5318",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 23
     },
     {
@@ -1605,6 +1805,7 @@
         "name": "Sumba Tengah",
         "code": "17",
         "full_code": "5317",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 23
     },
     {
@@ -1613,6 +1814,7 @@
         "name": "Sumba Timur",
         "code": "11",
         "full_code": "5311",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 23
     },
     {
@@ -1621,6 +1823,7 @@
         "name": "Bulungan",
         "code": "01",
         "full_code": "6501",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 16
     },
     {
@@ -1629,6 +1832,7 @@
         "name": "Sumbawa",
         "code": "04",
         "full_code": "5204",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 22
     },
     {
@@ -1637,6 +1841,7 @@
         "name": "Bungo",
         "code": "08",
         "full_code": "1508",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 8
     },
     {
@@ -1645,6 +1850,7 @@
         "name": "Sumbawa Barat",
         "code": "07",
         "full_code": "5207",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 22
     },
     {
@@ -1653,6 +1859,7 @@
         "name": "Buol",
         "code": "05",
         "full_code": "7205",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 33
     },
     {
@@ -1661,6 +1868,7 @@
         "name": "Sumedang",
         "code": "11",
         "full_code": "3211",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 9
     },
     {
@@ -1669,6 +1877,7 @@
         "name": "Buru",
         "code": "04",
         "full_code": "8104",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 20
     },
     {
@@ -1677,6 +1886,7 @@
         "name": "Buru Selatan",
         "code": "09",
         "full_code": "8109",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 20
     },
     {
@@ -1685,6 +1895,7 @@
         "name": "Kepulauan Aru",
         "code": "07",
         "full_code": "8107",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 20
     },
     {
@@ -1693,6 +1904,7 @@
         "name": "Sumenep",
         "code": "29",
         "full_code": "3529",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -1701,6 +1913,7 @@
         "name": "Buton",
         "code": "04",
         "full_code": "7404",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 34
     },
     {
@@ -1709,6 +1922,7 @@
         "name": "Sungai Penuh",
         "code": "72",
         "full_code": "1572",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 8
     },
     {
@@ -1717,6 +1931,7 @@
         "name": "Buton Selatan",
         "code": "15",
         "full_code": "7415",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 34
     },
     {
@@ -1725,6 +1940,7 @@
         "name": "Supiori",
         "code": "19",
         "full_code": "9119",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 24
     },
     {
@@ -1733,6 +1949,7 @@
         "name": "Buton Tengah",
         "code": "14",
         "full_code": "7414",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 34
     },
     {
@@ -1741,6 +1958,7 @@
         "name": "Buton Utara",
         "code": "10",
         "full_code": "7410",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 34
     },
     {
@@ -1749,6 +1967,7 @@
         "name": "Surabaya",
         "code": "78",
         "full_code": "3578",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -1757,6 +1976,7 @@
         "name": "Kepulauan Mentawai",
         "code": "09",
         "full_code": "1309",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 36
     },
     {
@@ -1765,6 +1985,7 @@
         "name": "Ciamis",
         "code": "07",
         "full_code": "3207",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 9
     },
     {
@@ -1773,6 +1994,7 @@
         "name": "Surakarta",
         "code": "72",
         "full_code": "3372",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -1781,6 +2003,7 @@
         "name": "Kepulauan Meranti",
         "code": "10",
         "full_code": "1410",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 30
     },
     {
@@ -1789,6 +2012,7 @@
         "name": "Cianjur",
         "code": "03",
         "full_code": "3203",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 9
     },
     {
@@ -1797,6 +2021,7 @@
         "name": "Tabalong",
         "code": "09",
         "full_code": "6309",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 13
     },
     {
@@ -1805,6 +2030,7 @@
         "name": "Kepulauan Sangihe",
         "code": "03",
         "full_code": "7103",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 35
     },
     {
@@ -1813,6 +2039,7 @@
         "name": "Kepulauan Selayar",
         "code": "01",
         "full_code": "7301",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 32
     },
     {
@@ -1821,6 +2048,7 @@
         "name": "Cilacap",
         "code": "01",
         "full_code": "3301",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -1829,6 +2057,7 @@
         "name": "Cilegon",
         "code": "72",
         "full_code": "3672",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 3
     },
     {
@@ -1837,6 +2066,7 @@
         "name": "Tabanan",
         "code": "02",
         "full_code": "5102",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 2
     },
     {
@@ -1845,6 +2075,7 @@
         "name": "Cimahi",
         "code": "77",
         "full_code": "3277",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 9
     },
     {
@@ -1853,6 +2084,7 @@
         "name": "Kepulauan Seribu",
         "code": "01",
         "full_code": "3101",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 6
     },
     {
@@ -1861,6 +2093,7 @@
         "name": "Takalar",
         "code": "05",
         "full_code": "7305",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 32
     },
     {
@@ -1869,6 +2102,7 @@
         "name": "Cirebon",
         "code": "74",
         "full_code": "3274",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 9
     },
     {
@@ -1877,6 +2111,7 @@
         "name": "Kepulauan Siau Tagulandang Biaro (Sitaro)",
         "code": "09",
         "full_code": "7109",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 35
     },
     {
@@ -1885,6 +2120,7 @@
         "name": "Kepulauan Sula",
         "code": "05",
         "full_code": "8205",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 21
     },
     {
@@ -1893,6 +2129,7 @@
         "name": "Tambrauw",
         "code": "09",
         "full_code": "9209",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 26
     },
     {
@@ -1901,6 +2138,7 @@
         "name": "Kepulauan Talaud",
         "code": "04",
         "full_code": "7104",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 35
     },
     {
@@ -1909,6 +2147,7 @@
         "name": "Kepulauan Tanimbar (Maluku Tenggara Barat)",
         "code": "03",
         "full_code": "8103",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 20
     },
     {
@@ -1917,6 +2156,7 @@
         "name": "Cirebon",
         "code": "09",
         "full_code": "3209",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 9
     },
     {
@@ -1925,6 +2165,7 @@
         "name": "Dairi",
         "code": "11",
         "full_code": "1211",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -1933,6 +2174,7 @@
         "name": "Tana Tidung",
         "code": "04",
         "full_code": "6504",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 16
     },
     {
@@ -1941,6 +2183,7 @@
         "name": "Deiyai",
         "code": "08",
         "full_code": "9408",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 29
     },
     {
@@ -1949,6 +2192,7 @@
         "name": "Kepulauan Yapen",
         "code": "05",
         "full_code": "9105",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 24
     },
     {
@@ -1957,6 +2201,7 @@
         "name": "Deli Serdang",
         "code": "07",
         "full_code": "1207",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -1965,6 +2210,7 @@
         "name": "Tana Toraja",
         "code": "18",
         "full_code": "7318",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 32
     },
     {
@@ -1973,6 +2219,7 @@
         "name": "Demak",
         "code": "21",
         "full_code": "3321",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -1981,6 +2228,7 @@
         "name": "Kerinci",
         "code": "01",
         "full_code": "1501",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 8
     },
     {
@@ -1989,6 +2237,7 @@
         "name": "Tanah Bumbu",
         "code": "10",
         "full_code": "6310",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 13
     },
     {
@@ -1997,6 +2246,7 @@
         "name": "Denpasar",
         "code": "71",
         "full_code": "5171",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 2
     },
     {
@@ -2005,6 +2255,7 @@
         "name": "Ketapang",
         "code": "04",
         "full_code": "6104",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 12
     },
     {
@@ -2013,6 +2264,7 @@
         "name": "Depok",
         "code": "76",
         "full_code": "3276",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 9
     },
     {
@@ -2021,6 +2273,7 @@
         "name": "Tanah Datar",
         "code": "04",
         "full_code": "1304",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 36
     },
     {
@@ -2029,6 +2282,7 @@
         "name": "Klaten",
         "code": "10",
         "full_code": "3310",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -2037,6 +2291,7 @@
         "name": "Dharmasraya",
         "code": "10",
         "full_code": "1310",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 36
     },
     {
@@ -2045,6 +2300,7 @@
         "name": "Tanah Laut",
         "code": "01",
         "full_code": "6301",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 13
     },
     {
@@ -2053,6 +2309,7 @@
         "name": "Dogiyai",
         "code": "06",
         "full_code": "9406",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 29
     },
     {
@@ -2061,6 +2318,7 @@
         "name": "Klungkung",
         "code": "05",
         "full_code": "5105",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 2
     },
     {
@@ -2069,6 +2327,7 @@
         "name": "Kolaka",
         "code": "01",
         "full_code": "7401",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 34
     },
     {
@@ -2077,6 +2336,7 @@
         "name": "Tangerang",
         "code": "71",
         "full_code": "3671",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 3
     },
     {
@@ -2085,6 +2345,7 @@
         "name": "Kolaka Timur",
         "code": "11",
         "full_code": "7411",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 34
     },
     {
@@ -2093,6 +2354,7 @@
         "name": "Tangerang",
         "code": "03",
         "full_code": "3603",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 3
     },
     {
@@ -2101,6 +2363,7 @@
         "name": "Tangerang Selatan",
         "code": "74",
         "full_code": "3674",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 3
     },
     {
@@ -2109,6 +2372,7 @@
         "name": "Tanggamus",
         "code": "06",
         "full_code": "1806",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 19
     },
     {
@@ -2117,6 +2381,7 @@
         "name": "Kolaka Utara",
         "code": "08",
         "full_code": "7408",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 34
     },
     {
@@ -2125,6 +2390,7 @@
         "name": "Konawe",
         "code": "02",
         "full_code": "7402",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 34
     },
     {
@@ -2133,6 +2399,7 @@
         "name": "Konawe Kepulauan",
         "code": "12",
         "full_code": "7412",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 34
     },
     {
@@ -2141,6 +2408,7 @@
         "name": "Tanjung Balai",
         "code": "74",
         "full_code": "1274",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -2149,6 +2417,7 @@
         "name": "Konawe Selatan",
         "code": "05",
         "full_code": "7405",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 34
     },
     {
@@ -2157,6 +2426,7 @@
         "name": "Konawe Utara",
         "code": "09",
         "full_code": "7409",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 34
     },
     {
@@ -2165,6 +2435,7 @@
         "name": "Kotabaru",
         "code": "02",
         "full_code": "6302",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 13
     },
     {
@@ -2173,6 +2444,7 @@
         "name": "Tanjung Jabung Barat",
         "code": "06",
         "full_code": "1506",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 8
     },
     {
@@ -2181,6 +2453,7 @@
         "name": "Kotamobagu",
         "code": "74",
         "full_code": "7174",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 35
     },
     {
@@ -2189,6 +2462,7 @@
         "name": "Tanjung Jabung Timur",
         "code": "07",
         "full_code": "1507",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 8
     },
     {
@@ -2197,6 +2471,7 @@
         "name": "Kotawaringin Barat",
         "code": "01",
         "full_code": "6201",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 14
     },
     {
@@ -2205,6 +2480,7 @@
         "name": "Kotawaringin Timur",
         "code": "02",
         "full_code": "6202",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 14
     },
     {
@@ -2213,6 +2489,7 @@
         "name": "Tanjung Pinang",
         "code": "72",
         "full_code": "2172",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 18
     },
     {
@@ -2221,6 +2498,7 @@
         "name": "Kuantan Singingi",
         "code": "09",
         "full_code": "1409",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 30
     },
     {
@@ -2229,6 +2507,7 @@
         "name": "Tapanuli Selatan",
         "code": "03",
         "full_code": "1203",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -2237,6 +2516,7 @@
         "name": "Kubu Raya",
         "code": "12",
         "full_code": "6112",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 12
     },
     {
@@ -2245,6 +2525,7 @@
         "name": "Kudus",
         "code": "19",
         "full_code": "3319",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -2253,6 +2534,7 @@
         "name": "Tapanuli Tengah",
         "code": "01",
         "full_code": "1201",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -2261,6 +2543,7 @@
         "name": "Tapanuli Utara",
         "code": "02",
         "full_code": "1202",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -2269,6 +2552,7 @@
         "name": "Tapin",
         "code": "05",
         "full_code": "6305",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 13
     },
     {
@@ -2277,6 +2561,7 @@
         "name": "Tarakan",
         "code": "71",
         "full_code": "6571",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 16
     },
     {
@@ -2285,6 +2570,7 @@
         "name": "Tasikmalaya",
         "code": "78",
         "full_code": "3278",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 9
     },
     {
@@ -2293,6 +2579,7 @@
         "name": "Kulon Progo",
         "code": "01",
         "full_code": "3401",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 5
     },
     {
@@ -2301,6 +2588,7 @@
         "name": "Kuningan",
         "code": "08",
         "full_code": "3208",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 9
     },
     {
@@ -2309,6 +2597,7 @@
         "name": "Kupang",
         "code": "01",
         "full_code": "5301",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 23
     },
     {
@@ -2317,6 +2606,7 @@
         "name": "Kupang",
         "code": "71",
         "full_code": "5371",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 23
     },
     {
@@ -2325,6 +2615,7 @@
         "name": "Tasikmalaya",
         "code": "06",
         "full_code": "3206",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 9
     },
     {
@@ -2333,6 +2624,7 @@
         "name": "Kutai Barat",
         "code": "07",
         "full_code": "6407",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 15
     },
     {
@@ -2341,6 +2633,7 @@
         "name": "Kutai Kartanegara",
         "code": "02",
         "full_code": "6402",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 15
     },
     {
@@ -2349,6 +2642,7 @@
         "name": "Kutai Timur",
         "code": "08",
         "full_code": "6408",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 15
     },
     {
@@ -2357,6 +2651,7 @@
         "name": "Labuhanbatu",
         "code": "10",
         "full_code": "1210",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -2365,6 +2660,7 @@
         "name": "Tebing Tinggi",
         "code": "76",
         "full_code": "1276",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -2373,6 +2669,7 @@
         "name": "Labuhanbatu Selatan",
         "code": "22",
         "full_code": "1222",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -2381,6 +2678,7 @@
         "name": "Tebo",
         "code": "09",
         "full_code": "1509",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 8
     },
     {
@@ -2389,6 +2687,7 @@
         "name": "Tegal",
         "code": "28",
         "full_code": "3328",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -2397,6 +2696,7 @@
         "name": "Tegal",
         "code": "76",
         "full_code": "3376",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -2405,6 +2705,7 @@
         "name": "Teluk Bintuni",
         "code": "06",
         "full_code": "9206",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 25
     },
     {
@@ -2413,6 +2714,7 @@
         "name": "Teluk Wondama",
         "code": "07",
         "full_code": "9207",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 25
     },
     {
@@ -2421,6 +2723,7 @@
         "name": "Labuhanbatu Utara",
         "code": "23",
         "full_code": "1223",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -2429,6 +2732,7 @@
         "name": "Temanggung",
         "code": "23",
         "full_code": "3323",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -2437,6 +2741,7 @@
         "name": "Lahat",
         "code": "04",
         "full_code": "1604",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 37
     },
     {
@@ -2445,6 +2750,7 @@
         "name": "Ternate",
         "code": "71",
         "full_code": "8271",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 21
     },
     {
@@ -2453,6 +2759,7 @@
         "name": "Lamandau",
         "code": "09",
         "full_code": "6209",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 14
     },
     {
@@ -2461,6 +2768,7 @@
         "name": "Dompu",
         "code": "05",
         "full_code": "5205",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 22
     },
     {
@@ -2469,6 +2777,7 @@
         "name": "Donggala",
         "code": "03",
         "full_code": "7203",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 33
     },
     {
@@ -2477,6 +2786,7 @@
         "name": "Dumai",
         "code": "72",
         "full_code": "1472",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 30
     },
     {
@@ -2485,6 +2795,7 @@
         "name": "Empat Lawang",
         "code": "11",
         "full_code": "1611",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 37
     },
     {
@@ -2493,6 +2804,7 @@
         "name": "Lamongan",
         "code": "24",
         "full_code": "3524",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -2501,6 +2813,7 @@
         "name": "Ende",
         "code": "08",
         "full_code": "5308",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 23
     },
     {
@@ -2509,6 +2822,7 @@
         "name": "Lampung Barat",
         "code": "04",
         "full_code": "1804",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 19
     },
     {
@@ -2517,6 +2831,7 @@
         "name": "Tidore Kepulauan",
         "code": "72",
         "full_code": "8272",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 21
     },
     {
@@ -2525,6 +2840,7 @@
         "name": "Enrekang",
         "code": "16",
         "full_code": "7316",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 32
     },
     {
@@ -2533,6 +2849,7 @@
         "name": "Lampung Selatan",
         "code": "01",
         "full_code": "1801",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 19
     },
     {
@@ -2541,6 +2858,7 @@
         "name": "Fak Fak",
         "code": "03",
         "full_code": "9203",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 25
     },
     {
@@ -2549,6 +2867,7 @@
         "name": "Timor Tengah Selatan",
         "code": "02",
         "full_code": "5302",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 23
     },
     {
@@ -2557,6 +2876,7 @@
         "name": "Lampung Tengah",
         "code": "02",
         "full_code": "1802",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 19
     },
     {
@@ -2565,6 +2885,7 @@
         "name": "Flores Timur",
         "code": "06",
         "full_code": "5306",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 23
     },
     {
@@ -2573,6 +2894,7 @@
         "name": "Lampung Timur",
         "code": "07",
         "full_code": "1807",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 19
     },
     {
@@ -2581,6 +2903,7 @@
         "name": "Garut",
         "code": "05",
         "full_code": "3205",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 9
     },
     {
@@ -2589,6 +2912,7 @@
         "name": "Timor Tengah Utara",
         "code": "03",
         "full_code": "5303",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 23
     },
     {
@@ -2597,6 +2921,7 @@
         "name": "Lampung Utara",
         "code": "03",
         "full_code": "1803",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 19
     },
     {
@@ -2605,6 +2930,7 @@
         "name": "Toba",
         "code": "12",
         "full_code": "1212",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -2613,6 +2939,7 @@
         "name": "Tojo Una Una",
         "code": "09",
         "full_code": "7209",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 33
     },
     {
@@ -2621,6 +2948,7 @@
         "name": "Gayo Lues",
         "code": "13",
         "full_code": "1113",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 1
     },
     {
@@ -2629,6 +2957,7 @@
         "name": "Landak",
         "code": "08",
         "full_code": "6108",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 12
     },
     {
@@ -2637,6 +2966,7 @@
         "name": "Gianyar",
         "code": "04",
         "full_code": "5104",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 2
     },
     {
@@ -2645,6 +2975,7 @@
         "name": "Langkat",
         "code": "05",
         "full_code": "1205",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -2653,6 +2984,7 @@
         "name": "Gorontalo",
         "code": "01",
         "full_code": "7501",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 7
     },
     {
@@ -2661,6 +2993,7 @@
         "name": "Langsa",
         "code": "74",
         "full_code": "1174",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 1
     },
     {
@@ -2669,6 +3002,7 @@
         "name": "Toli Toli",
         "code": "04",
         "full_code": "7204",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 33
     },
     {
@@ -2677,6 +3011,7 @@
         "name": "Lanny Jaya",
         "code": "07",
         "full_code": "9507",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 27
     },
     {
@@ -2685,6 +3020,7 @@
         "name": "Lebak",
         "code": "02",
         "full_code": "3602",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 3
     },
     {
@@ -2693,6 +3029,7 @@
         "name": "Gorontalo",
         "code": "71",
         "full_code": "7571",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 7
     },
     {
@@ -2701,6 +3038,7 @@
         "name": "Tolikara",
         "code": "04",
         "full_code": "9504",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 27
     },
     {
@@ -2709,6 +3047,7 @@
         "name": "Tomohon",
         "code": "73",
         "full_code": "7173",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 35
     },
     {
@@ -2717,6 +3056,7 @@
         "name": "Lebong",
         "code": "07",
         "full_code": "1707",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 4
     },
     {
@@ -2725,6 +3065,7 @@
         "name": "Toraja Utara",
         "code": "26",
         "full_code": "7326",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 32
     },
     {
@@ -2733,6 +3074,7 @@
         "name": "Lembata",
         "code": "13",
         "full_code": "5313",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 23
     },
     {
@@ -2741,6 +3083,7 @@
         "name": "Lhokseumawe",
         "code": "73",
         "full_code": "1173",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 1
     },
     {
@@ -2749,6 +3092,7 @@
         "name": "Lima Puluh Kota",
         "code": "07",
         "full_code": "1307",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 36
     },
     {
@@ -2757,6 +3101,7 @@
         "name": "Lingga",
         "code": "04",
         "full_code": "2104",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 18
     },
     {
@@ -2765,6 +3110,7 @@
         "name": "Trenggalek",
         "code": "03",
         "full_code": "3503",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -2773,6 +3119,7 @@
         "name": "Tual",
         "code": "72",
         "full_code": "8172",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 20
     },
     {
@@ -2781,6 +3128,7 @@
         "name": "Tuban",
         "code": "23",
         "full_code": "3523",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -2789,6 +3137,7 @@
         "name": "Lombok Barat",
         "code": "01",
         "full_code": "5201",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 22
     },
     {
@@ -2797,6 +3146,7 @@
         "name": "Tulang Bawang",
         "code": "05",
         "full_code": "1805",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 19
     },
     {
@@ -2805,6 +3155,7 @@
         "name": "Lombok Tengah",
         "code": "02",
         "full_code": "5202",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 22
     },
     {
@@ -2813,6 +3164,7 @@
         "name": "Lombok Timur",
         "code": "03",
         "full_code": "5203",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 22
     },
     {
@@ -2821,6 +3173,7 @@
         "name": "Tulang Bawang Barat",
         "code": "12",
         "full_code": "1812",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 19
     },
     {
@@ -2829,6 +3182,7 @@
         "name": "Lombok Utara",
         "code": "08",
         "full_code": "5208",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 22
     },
     {
@@ -2837,6 +3191,7 @@
         "name": "Lubuk Linggau",
         "code": "73",
         "full_code": "1673",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 37
     },
     {
@@ -2845,6 +3200,7 @@
         "name": "Tulungagung",
         "code": "04",
         "full_code": "3504",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -2853,6 +3209,7 @@
         "name": "Lumajang",
         "code": "08",
         "full_code": "3508",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -2861,6 +3218,7 @@
         "name": "Wajo",
         "code": "13",
         "full_code": "7313",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 32
     },
     {
@@ -2869,6 +3227,7 @@
         "name": "Luwu",
         "code": "17",
         "full_code": "7317",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 32
     },
     {
@@ -2877,6 +3236,7 @@
         "name": "Luwu Timur",
         "code": "24",
         "full_code": "7324",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 32
     },
     {
@@ -2885,6 +3245,7 @@
         "name": "Wakatobi",
         "code": "07",
         "full_code": "7407",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 34
     },
     {
@@ -2893,6 +3254,7 @@
         "name": "Waropen",
         "code": "15",
         "full_code": "9115",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 24
     },
     {
@@ -2901,6 +3263,7 @@
         "name": "Way Kanan",
         "code": "08",
         "full_code": "1808",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 19
     },
     {
@@ -2909,6 +3272,7 @@
         "name": "Wonogiri",
         "code": "12",
         "full_code": "3312",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -2917,6 +3281,7 @@
         "name": "Wonosobo",
         "code": "07",
         "full_code": "3307",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -2925,6 +3290,7 @@
         "name": "Yahukimo",
         "code": "03",
         "full_code": "9503",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 27
     },
     {
@@ -2933,6 +3299,7 @@
         "name": "Yalimo",
         "code": "06",
         "full_code": "9506",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 27
     },
     {
@@ -2941,6 +3308,7 @@
         "name": "Yogyakarta",
         "code": "71",
         "full_code": "3471",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 5
     },
     {
@@ -2949,6 +3317,7 @@
         "name": "Luwu Utara",
         "code": "22",
         "full_code": "7322",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 32
     },
     {
@@ -2957,6 +3326,7 @@
         "name": "Madiun",
         "code": "19",
         "full_code": "3519",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -2965,6 +3335,7 @@
         "name": "Madiun",
         "code": "77",
         "full_code": "3577",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -2973,6 +3344,7 @@
         "name": "Magelang",
         "code": "08",
         "full_code": "3308",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -2981,6 +3353,7 @@
         "name": "Magelang",
         "code": "71",
         "full_code": "3371",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -2989,6 +3362,7 @@
         "name": "Magetan",
         "code": "20",
         "full_code": "3520",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -2997,6 +3371,7 @@
         "name": "Mahakam Ulu",
         "code": "11",
         "full_code": "6411",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 15
     },
     {
@@ -3005,6 +3380,7 @@
         "name": "Majalengka",
         "code": "10",
         "full_code": "3210",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 9
     },
     {
@@ -3013,6 +3389,7 @@
         "name": "Majene",
         "code": "05",
         "full_code": "7605",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 31
     },
     {
@@ -3021,6 +3398,7 @@
         "name": "Makassar",
         "code": "71",
         "full_code": "7371",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 32
     },
     {
@@ -3029,6 +3407,7 @@
         "name": "Malaka",
         "code": "21",
         "full_code": "5321",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 23
     },
     {
@@ -3037,6 +3416,7 @@
         "name": "Malang",
         "code": "07",
         "full_code": "3507",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -3045,6 +3425,7 @@
         "name": "Malang",
         "code": "73",
         "full_code": "3573",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -3053,6 +3434,7 @@
         "name": "Malinau",
         "code": "02",
         "full_code": "6502",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 16
     },
     {
@@ -3061,6 +3443,7 @@
         "name": "Maluku Barat Daya",
         "code": "08",
         "full_code": "8108",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 20
     },
     {
@@ -3069,6 +3452,7 @@
         "name": "Maluku Tengah",
         "code": "01",
         "full_code": "8101",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 20
     },
     {
@@ -3077,6 +3461,7 @@
         "name": "Maluku Tenggara",
         "code": "02",
         "full_code": "8102",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 20
     },
     {
@@ -3085,6 +3470,7 @@
         "name": "Mamasa",
         "code": "03",
         "full_code": "7603",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 31
     },
     {
@@ -3093,6 +3479,7 @@
         "name": "Mamberamo Raya",
         "code": "20",
         "full_code": "9120",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 24
     },
     {
@@ -3101,6 +3488,7 @@
         "name": "Mamberamo Tengah",
         "code": "05",
         "full_code": "9505",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 27
     },
     {
@@ -3109,6 +3497,7 @@
         "name": "Mamuju",
         "code": "02",
         "full_code": "7602",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 31
     },
     {
@@ -3117,6 +3506,7 @@
         "name": "Mamuju Tengah",
         "code": "06",
         "full_code": "7606",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 31
     },
     {
@@ -3125,6 +3515,7 @@
         "name": "Manado",
         "code": "71",
         "full_code": "7171",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 35
     },
     {
@@ -3133,6 +3524,7 @@
         "name": "Mandailing Natal",
         "code": "13",
         "full_code": "1213",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -3141,6 +3533,7 @@
         "name": "Manggarai",
         "code": "10",
         "full_code": "5310",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 23
     },
     {
@@ -3149,6 +3542,7 @@
         "name": "Manggarai Barat",
         "code": "15",
         "full_code": "5315",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 23
     },
     {
@@ -3157,6 +3551,7 @@
         "name": "Manggarai Timur",
         "code": "19",
         "full_code": "5319",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 23
     },
     {
@@ -3165,6 +3560,7 @@
         "name": "Manokwari",
         "code": "02",
         "full_code": "9202",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 25
     },
     {
@@ -3173,6 +3569,7 @@
         "name": "Manokwari Selatan",
         "code": "11",
         "full_code": "9211",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 25
     },
     {
@@ -3181,6 +3578,7 @@
         "name": "Mappi",
         "code": "03",
         "full_code": "9303",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 28
     },
     {
@@ -3189,6 +3587,7 @@
         "name": "Maros",
         "code": "09",
         "full_code": "7309",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 32
     },
     {
@@ -3197,6 +3596,7 @@
         "name": "Mataram",
         "code": "71",
         "full_code": "5271",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 22
     },
     {
@@ -3205,6 +3605,7 @@
         "name": "Maybrat",
         "code": "10",
         "full_code": "9210",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 26
     },
     {
@@ -3213,6 +3614,7 @@
         "name": "Medan",
         "code": "71",
         "full_code": "1271",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -3221,6 +3623,7 @@
         "name": "Melawi",
         "code": "10",
         "full_code": "6110",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 12
     },
     {
@@ -3229,6 +3632,7 @@
         "name": "Mempawah",
         "code": "02",
         "full_code": "6102",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 12
     },
     {
@@ -3237,6 +3641,7 @@
         "name": "Merangin",
         "code": "02",
         "full_code": "1502",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 8
     },
     {
@@ -3245,6 +3650,7 @@
         "name": "Merauke",
         "code": "01",
         "full_code": "9301",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 28
     },
     {
@@ -3253,6 +3659,7 @@
         "name": "Mesuji",
         "code": "11",
         "full_code": "1811",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 19
     },
     {
@@ -3261,6 +3668,7 @@
         "name": "Metro",
         "code": "72",
         "full_code": "1872",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 19
     },
     {
@@ -3269,6 +3677,7 @@
         "name": "Mimika",
         "code": "04",
         "full_code": "9404",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 29
     },
     {
@@ -3277,6 +3686,7 @@
         "name": "Minahasa",
         "code": "02",
         "full_code": "7102",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 35
     },
     {
@@ -3285,6 +3695,7 @@
         "name": "Minahasa Selatan",
         "code": "05",
         "full_code": "7105",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 35
     },
     {
@@ -3293,6 +3704,7 @@
         "name": "Minahasa Tenggara",
         "code": "07",
         "full_code": "7107",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 35
     },
     {
@@ -3301,6 +3713,7 @@
         "name": "Minahasa Utara",
         "code": "06",
         "full_code": "7106",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 35
     },
     {
@@ -3309,6 +3722,7 @@
         "name": "Mojokerto",
         "code": "16",
         "full_code": "3516",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -3317,6 +3731,7 @@
         "name": "Mojokerto",
         "code": "76",
         "full_code": "3576",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -3325,6 +3740,7 @@
         "name": "Morowali",
         "code": "06",
         "full_code": "7206",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 33
     },
     {
@@ -3333,6 +3749,7 @@
         "name": "Morowali Utara",
         "code": "12",
         "full_code": "7212",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 33
     },
     {
@@ -3341,6 +3758,7 @@
         "name": "Muara Enim",
         "code": "03",
         "full_code": "1603",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 37
     },
     {
@@ -3349,6 +3767,7 @@
         "name": "Muaro Jambi",
         "code": "05",
         "full_code": "1505",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 8
     },
     {
@@ -3357,6 +3776,7 @@
         "name": "Muko Muko",
         "code": "06",
         "full_code": "1706",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 4
     },
     {
@@ -3365,6 +3785,7 @@
         "name": "Muna",
         "code": "03",
         "full_code": "7403",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 34
     },
     {
@@ -3373,6 +3794,7 @@
         "name": "Muna Barat",
         "code": "13",
         "full_code": "7413",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 34
     },
     {
@@ -3381,6 +3803,7 @@
         "name": "Murung Raya",
         "code": "12",
         "full_code": "6212",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 14
     },
     {
@@ -3389,6 +3812,7 @@
         "name": "Musi Banyuasin",
         "code": "06",
         "full_code": "1606",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 37
     },
     {
@@ -3397,6 +3821,7 @@
         "name": "Musi Rawas",
         "code": "05",
         "full_code": "1605",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 37
     },
     {
@@ -3405,6 +3830,7 @@
         "name": "Musi Rawas Utara",
         "code": "13",
         "full_code": "1613",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 37
     },
     {
@@ -3413,6 +3839,7 @@
         "name": "Nabire",
         "code": "01",
         "full_code": "9401",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 29
     },
     {
@@ -3421,6 +3848,7 @@
         "name": "Nagan Raya",
         "code": "15",
         "full_code": "1115",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 1
     },
     {
@@ -3429,6 +3857,7 @@
         "name": "Nagekeo",
         "code": "16",
         "full_code": "5316",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 23
     },
     {
@@ -3437,6 +3866,7 @@
         "name": "Natuna",
         "code": "03",
         "full_code": "2103",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 18
     },
     {
@@ -3445,6 +3875,7 @@
         "name": "Nduga",
         "code": "08",
         "full_code": "9508",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 27
     },
     {
@@ -3453,6 +3884,7 @@
         "name": "Ngada",
         "code": "09",
         "full_code": "5309",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 23
     },
     {
@@ -3461,6 +3893,7 @@
         "name": "Nganjuk",
         "code": "18",
         "full_code": "3518",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -3469,6 +3902,7 @@
         "name": "Ngawi",
         "code": "21",
         "full_code": "3521",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -3477,6 +3911,7 @@
         "name": "Nias",
         "code": "04",
         "full_code": "1204",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -3485,6 +3920,7 @@
         "name": "Nias Barat",
         "code": "25",
         "full_code": "1225",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -3493,6 +3929,7 @@
         "name": "Nias Selatan",
         "code": "14",
         "full_code": "1214",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -3501,6 +3938,7 @@
         "name": "Nias Utara",
         "code": "24",
         "full_code": "1224",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -3509,6 +3947,7 @@
         "name": "Nunukan",
         "code": "03",
         "full_code": "6503",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 16
     },
     {
@@ -3517,6 +3956,7 @@
         "name": "Ogan Ilir",
         "code": "10",
         "full_code": "1610",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 37
     },
     {
@@ -3525,6 +3965,7 @@
         "name": "Ogan Komering Ilir",
         "code": "02",
         "full_code": "1602",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 37
     },
     {
@@ -3533,6 +3974,7 @@
         "name": "Ogan Komering Ulu",
         "code": "01",
         "full_code": "1601",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 37
     },
     {
@@ -3541,6 +3983,7 @@
         "name": "Ogan Komering Ulu Selatan",
         "code": "09",
         "full_code": "1609",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 37
     },
     {
@@ -3549,6 +3992,7 @@
         "name": "Ogan Komering Ulu Timur",
         "code": "08",
         "full_code": "1608",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 37
     },
     {
@@ -3557,6 +4001,7 @@
         "name": "Pacitan",
         "code": "01",
         "full_code": "3501",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -3565,6 +4010,7 @@
         "name": "Padang",
         "code": "71",
         "full_code": "1371",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 36
     },
     {
@@ -3573,6 +4019,7 @@
         "name": "Padang Lawas",
         "code": "21",
         "full_code": "1221",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -3581,6 +4028,7 @@
         "name": "Padang Lawas Utara",
         "code": "20",
         "full_code": "1220",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -3589,6 +4037,7 @@
         "name": "Padang Panjang",
         "code": "74",
         "full_code": "1374",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 36
     },
     {
@@ -3597,6 +4046,7 @@
         "name": "Padang Pariaman",
         "code": "05",
         "full_code": "1305",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 36
     },
     {
@@ -3605,6 +4055,7 @@
         "name": "Padangsidimpuan",
         "code": "77",
         "full_code": "1277",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -3613,6 +4064,7 @@
         "name": "Pagar Alam",
         "code": "72",
         "full_code": "1672",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 37
     },
     {
@@ -3621,6 +4073,7 @@
         "name": "Pahuwato",
         "code": "04",
         "full_code": "7504",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 7
     },
     {
@@ -3629,6 +4082,7 @@
         "name": "Pakpak Bharat",
         "code": "15",
         "full_code": "1215",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -3637,6 +4091,7 @@
         "name": "Palangkaraya",
         "code": "71",
         "full_code": "6271",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 14
     },
     {
@@ -3645,6 +4100,7 @@
         "name": "Palembang",
         "code": "71",
         "full_code": "1671",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 37
     },
     {
@@ -3653,6 +4109,7 @@
         "name": "Palopo",
         "code": "73",
         "full_code": "7373",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 32
     },
     {
@@ -3661,6 +4118,7 @@
         "name": "Palu",
         "code": "71",
         "full_code": "7271",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 33
     },
     {
@@ -3669,6 +4127,7 @@
         "name": "Pamekasan",
         "code": "28",
         "full_code": "3528",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -3677,6 +4136,7 @@
         "name": "Pandeglang",
         "code": "01",
         "full_code": "3601",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 3
     },
     {
@@ -3685,6 +4145,7 @@
         "name": "Pangandaran",
         "code": "18",
         "full_code": "3218",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 9
     },
     {
@@ -3693,6 +4154,7 @@
         "name": "Pangkajene Kepulauan",
         "code": "10",
         "full_code": "7310",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 32
     },
     {
@@ -3701,6 +4163,7 @@
         "name": "Pangkal Pinang",
         "code": "71",
         "full_code": "1971",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 17
     },
     {
@@ -3709,6 +4172,7 @@
         "name": "Paniai",
         "code": "03",
         "full_code": "9403",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 29
     },
     {
@@ -3717,6 +4181,7 @@
         "name": "Pare Pare",
         "code": "72",
         "full_code": "7372",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 32
     },
     {
@@ -3725,6 +4190,7 @@
         "name": "Pariaman",
         "code": "77",
         "full_code": "1377",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 36
     },
     {
@@ -3733,6 +4199,7 @@
         "name": "Parigi Moutong",
         "code": "08",
         "full_code": "7208",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 33
     },
     {
@@ -3741,6 +4208,7 @@
         "name": "Pasaman",
         "code": "08",
         "full_code": "1308",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 36
     },
     {
@@ -3749,6 +4217,7 @@
         "name": "Pasaman Barat",
         "code": "12",
         "full_code": "1312",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 36
     },
     {
@@ -3757,6 +4226,7 @@
         "name": "Pasangkayu (Mamuju Utara)",
         "code": "01",
         "full_code": "7601",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 31
     },
     {
@@ -3765,6 +4235,7 @@
         "name": "Paser",
         "code": "01",
         "full_code": "6401",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 15
     },
     {
@@ -3773,6 +4244,7 @@
         "name": "Pasuruan",
         "code": "14",
         "full_code": "3514",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -3781,6 +4253,7 @@
         "name": "Pasuruan",
         "code": "75",
         "full_code": "3575",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -3789,6 +4262,7 @@
         "name": "Pati",
         "code": "18",
         "full_code": "3318",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -3797,6 +4271,7 @@
         "name": "Payakumbuh",
         "code": "76",
         "full_code": "1376",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 36
     },
     {
@@ -3805,6 +4280,7 @@
         "name": "Pegunungan Arfak",
         "code": "12",
         "full_code": "9212",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 25
     },
     {
@@ -3813,6 +4289,7 @@
         "name": "Pegunungan Bintang",
         "code": "02",
         "full_code": "9502",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 27
     },
     {
@@ -3821,6 +4298,7 @@
         "name": "Pekalongan",
         "code": "26",
         "full_code": "3326",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -3829,6 +4307,7 @@
         "name": "Pekalongan",
         "code": "75",
         "full_code": "3375",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -3837,6 +4316,7 @@
         "name": "Pekanbaru",
         "code": "71",
         "full_code": "1471",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 30
     },
     {
@@ -3845,6 +4325,7 @@
         "name": "Pelalawan",
         "code": "05",
         "full_code": "1405",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 30
     },
     {
@@ -3853,6 +4334,7 @@
         "name": "Pemalang",
         "code": "27",
         "full_code": "3327",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -3861,6 +4343,7 @@
         "name": "Pematangsiantar",
         "code": "72",
         "full_code": "1272",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 38
     },
     {
@@ -3869,6 +4352,7 @@
         "name": "Penajam Paser Utara",
         "code": "09",
         "full_code": "6409",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 15
     },
     {
@@ -3877,6 +4361,7 @@
         "name": "Penukal Abab Lematang Ilir",
         "code": "12",
         "full_code": "1612",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 37
     },
     {
@@ -3885,6 +4370,7 @@
         "name": "Pesawaran",
         "code": "09",
         "full_code": "1809",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 19
     },
     {
@@ -3893,6 +4379,7 @@
         "name": "Pesisir Barat",
         "code": "13",
         "full_code": "1813",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 19
     },
     {
@@ -3901,6 +4388,7 @@
         "name": "Pesisir Selatan",
         "code": "01",
         "full_code": "1301",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 36
     },
     {
@@ -3909,6 +4397,7 @@
         "name": "Pidie",
         "code": "07",
         "full_code": "1107",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 1
     },
     {
@@ -3917,6 +4406,7 @@
         "name": "Pidie Jaya",
         "code": "18",
         "full_code": "1118",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 1
     },
     {
@@ -3925,6 +4415,7 @@
         "name": "Pinrang",
         "code": "15",
         "full_code": "7315",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 32
     },
     {
@@ -3933,6 +4424,7 @@
         "name": "Polewali Mandar",
         "code": "04",
         "full_code": "7604",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 31
     },
     {
@@ -3941,6 +4433,7 @@
         "name": "Ponorogo",
         "code": "02",
         "full_code": "3502",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -3949,6 +4442,7 @@
         "name": "Pontianak",
         "code": "71",
         "full_code": "6171",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 12
     },
     {
@@ -3957,6 +4451,7 @@
         "name": "Poso",
         "code": "02",
         "full_code": "7202",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 33
     },
     {
@@ -3965,6 +4460,7 @@
         "name": "Prabumulih",
         "code": "74",
         "full_code": "1674",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 37
     },
     {
@@ -3973,6 +4469,7 @@
         "name": "Pringsewu",
         "code": "10",
         "full_code": "1810",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 19
     },
     {
@@ -3981,6 +4478,7 @@
         "name": "Probolinggo",
         "code": "13",
         "full_code": "3513",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -3989,6 +4487,7 @@
         "name": "Probolinggo",
         "code": "74",
         "full_code": "3574",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 11
     },
     {
@@ -3997,6 +4496,7 @@
         "name": "Pulang Pisau",
         "code": "11",
         "full_code": "6211",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 14
     },
     {
@@ -4005,6 +4505,7 @@
         "name": "Pulau Morotai",
         "code": "07",
         "full_code": "8207",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 21
     },
     {
@@ -4013,6 +4514,7 @@
         "name": "Pulau Taliabu",
         "code": "08",
         "full_code": "8208",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 21
     },
     {
@@ -4021,6 +4523,7 @@
         "name": "Puncak",
         "code": "05",
         "full_code": "9405",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 29
     },
     {
@@ -4029,6 +4532,7 @@
         "name": "Puncak Jaya",
         "code": "02",
         "full_code": "9402",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 29
     },
     {
@@ -4037,6 +4541,7 @@
         "name": "Purbalingga",
         "code": "03",
         "full_code": "3303",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -4045,6 +4550,7 @@
         "name": "Purwakarta",
         "code": "14",
         "full_code": "3214",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 9
     },
     {
@@ -4053,6 +4559,7 @@
         "name": "Purworejo",
         "code": "06",
         "full_code": "3306",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -4061,6 +4568,7 @@
         "name": "Raja Ampat",
         "code": "05",
         "full_code": "9205",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 26
     },
     {
@@ -4069,6 +4577,7 @@
         "name": "Rejang Lebong",
         "code": "02",
         "full_code": "1702",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 4
     },
     {
@@ -4077,6 +4586,7 @@
         "name": "Rembang",
         "code": "17",
         "full_code": "3317",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 10
     },
     {
@@ -4085,6 +4595,7 @@
         "name": "Rokan Hilir",
         "code": "07",
         "full_code": "1407",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 30
     },
     {
@@ -4093,6 +4604,7 @@
         "name": "Rokan Hulu",
         "code": "06",
         "full_code": "1406",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 30
     },
     {
@@ -4101,6 +4613,7 @@
         "name": "Rote Ndao",
         "code": "14",
         "full_code": "5314",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 23
     },
     {
@@ -4109,6 +4622,7 @@
         "name": "Sabang",
         "code": "72",
         "full_code": "1172",
+        "created_at": "2025-01-01 12:00:00",
         "provinsi_id": 1
     }
 ]
