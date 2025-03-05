@@ -15,7 +15,7 @@ class ProvinsiController extends Controller
      */
     public function index()
     {
-        $provinsi = Provinsi::all();
+        $provinsi = Provinsi::orderBy('id', 'DESC')->get();
         return view('pages.datamaster.data-wilayah.provinsi.index', compact('provinsi'));
     }
 

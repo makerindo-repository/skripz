@@ -13,7 +13,7 @@ class BidangKeahlianController extends Controller
      */
     public function index()
     {
-        $bidkeahlian = BidangKeahlian::all();
+        $bidkeahlian = BidangKeahlian::orderBy('created_at', 'DESC')->get();
         return view('pages.datamaster.data-bidkeahlian.index', compact('bidkeahlian'));
     }
 

@@ -16,9 +16,9 @@ class JadwalBimbinganController extends Controller
      */
     public function index()
     {
-        $mahbim = MahasiswaBimbingan::all();
-        $jadbim = JadwalBimbingan::all();
-        $dospem = DosenPembimbing::all();
+        $mahbim = MahasiswaBimbingan::orderBy('created_at', 'DESC')->get();
+        $jadbim = JadwalBimbingan::orderBy('created_at', 'DESC')->get();
+        $dospem = DosenPembimbing::orderBy('created_at', 'DESC')->get();
         $ruang = Ruang::where('ketersediaan', 'Tersedia')->get();
         return view('pages.datamaster.data-jadbim.index', compact('jadbim', 'mahbim', 'ruang', 'dospem'));
     }

@@ -18,8 +18,8 @@ class MahasiswaController extends Controller
      */
     public function index()
     {
-        $mahasiswa = Mahasiswa::all();
-        $jurusan   = Jurusan::all();
+        $mahasiswa = Mahasiswa::orderBy('created_at', 'DESC')->get();
+        $jurusan   = Jurusan::orderBy('created_at', 'DESC')->get();
         return view('pages.datamaster.data-mahasiswa.index', compact('mahasiswa', 'jurusan'));
     }
 
@@ -28,7 +28,7 @@ class MahasiswaController extends Controller
      */
     public function create()
     {
-        $jurusan   = Jurusan::all();
+        $jurusan   = Jurusan::orderBy('created_at', 'DESC')->get();
         return view('pages.datamaster.data-mahasiswa.create', compact('jurusan'));
     }
 
@@ -63,7 +63,7 @@ class MahasiswaController extends Controller
             'email'               => $request->email,
             'password'            => Hash::make('password'),
         ]);
-        
+
         $user->assignRole(4);
 
         Mahasiswa::create([
@@ -92,7 +92,7 @@ class MahasiswaController extends Controller
     public function show($slug)
     {
         $mahasiswa = Mahasiswa::findBySlug($slug);
-        $jurusan   = Jurusan::all();
+        $jurusan   = Jurusan::orderBy('created_at', 'DESC')->get();
         return view('pages.datamaster.data-mahasiswa.show', compact('mahasiswa', 'jurusan'));
     }
 
@@ -102,7 +102,7 @@ class MahasiswaController extends Controller
     public function edit($slug)
     {
         $mahasiswa = Mahasiswa::findBySlug($slug);
-        $jurusan   = Jurusan::all();
+        $jurusan   = Jurusan::orderBy('created_at', 'DESC')->get();
         return view('pages.datamaster.data-mahasiswa.edit', compact('mahasiswa', 'jurusan'));
     }
 

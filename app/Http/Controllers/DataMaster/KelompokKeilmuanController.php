@@ -14,8 +14,8 @@ class KelompokKeilmuanController extends Controller
      */
     public function index()
     {
-        $kelilmuan = KelompokKeilmuan::all();
-        $keilmuan  = Keilmuan::all();
+        $kelilmuan = KelompokKeilmuan::orderBy('created_at', 'DESC')->get();
+        $keilmuan  = Keilmuan::orderBy('created_at', 'DESC')->get();
         return view('pages.datamaster.data-kelilmuan.index', compact('kelilmuan','keilmuan'));
     }
 

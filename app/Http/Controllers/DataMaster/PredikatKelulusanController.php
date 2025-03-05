@@ -13,7 +13,7 @@ class PredikatKelulusanController extends Controller
      */
     public function index()
     {
-        $predlulus = PredikatKelulusan::all();
+        $predlulus = PredikatKelulusan::orderBy('created_at', 'DESC')->get();
         return view('pages.datamaster.data-predlulus.index', compact('predlulus'));
     }
 

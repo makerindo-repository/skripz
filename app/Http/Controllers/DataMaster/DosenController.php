@@ -20,10 +20,10 @@ class DosenController extends Controller
      */
     public function index()
     {
-        $dosen          = Dosen::all();
-        $jabatan        = Jabatan::all();
-        $bidkeahlian    = BidangKeahlian::all();
-        $keilmuan       = Keilmuan::all();
+        $dosen          = Dosen::orderBy('created_at', 'DESC')->get();
+        $jabatan        = Jabatan::orderBy('created_at', 'DESC')->get();
+        $bidkeahlian    = BidangKeahlian::orderBy('created_at', 'DESC')->get();
+        $keilmuan       = Keilmuan::orderBy('created_at', 'DESC')->get();
         return view('pages.datamaster.data-dosen.index', compact('dosen', 'jabatan', 'bidkeahlian','keilmuan'));
     }
 
@@ -32,9 +32,9 @@ class DosenController extends Controller
      */
     public function create()
     {
-        $jabatan        = Jabatan::all();
-        $bidkeahlian    = BidangKeahlian::all();
-        $keilmuan       = Keilmuan::all();
+        $jabatan        = Jabatan::orderBy('created_at', 'DESC')->get();
+        $bidkeahlian    = BidangKeahlian::orderBy('created_at', 'DESC')->get();
+        $keilmuan       = Keilmuan::orderBy('created_at', 'DESC')->get();
         return view('pages.datamaster.data-dosen.create', compact('jabatan', 'bidkeahlian','keilmuan'));
     }
 
@@ -119,9 +119,9 @@ class DosenController extends Controller
     public function show($slug)
     {
         $dosen          = Dosen::findBySlug($slug);
-        $jabatan        = Jabatan::all();
-        $bidkeahlian    = BidangKeahlian::all();
-        $keilmuan       = Keilmuan::all();
+        $jabatan        = Jabatan::orderBy('created_at', 'DESC')->get();
+        $bidkeahlian    = BidangKeahlian::orderBy('created_at', 'DESC')->get();
+        $keilmuan       = Keilmuan::orderBy('created_at', 'DESC')->get();
         return view('pages.datamaster.data-dosen.show',compact('dosen', 'jabatan', 'bidkeahlian','keilmuan'));
     }
 
@@ -131,9 +131,9 @@ class DosenController extends Controller
     public function edit($slug)
     {
         $dosen          = Dosen::findBySlug($slug);
-        $jabatan        = Jabatan::all();
-        $bidkeahlian    = BidangKeahlian::all();
-        $keilmuan       = Keilmuan::all();
+        $jabatan        = Jabatan::orderBy('created_at', 'DESC')->get();
+        $bidkeahlian    = BidangKeahlian::orderBy('created_at', 'DESC')->get();
+        $keilmuan       = Keilmuan::orderBy('created_at', 'DESC')->get();
         return view('pages.datamaster.data-dosen.edit',compact('dosen', 'jabatan', 'bidkeahlian','keilmuan'));
 
     }

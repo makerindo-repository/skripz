@@ -16,9 +16,13 @@ class KabupatenController extends Controller
      */
     public function index()
     {
-        $kabupaten = Kabupaten::with('provinsi')->orderBy('provinsi_id')->orderBy('name')->get();
-        $provinsi = Provinsi::all();
-        return view('pages.datamaster.data-wilayah.kabupaten.index', compact('kabupaten', 'provinsi'));
+        $kabupaten = Kabupaten::with('provinsi')
+        ->orderByDesc('created_at') // Menampilkan kabupaten terbaru lebih dulu dalam provinsi
+        ->get()
+        ->groupBy('provinsi_id'); // Mengelompokkan hasil berdasarkan Provinsi di Collection
+            $kabupatens = Kabupaten::all();
+            $provinsi = Provinsi::all();
+        return view('pages.datamaster.data-wilayah.kabupaten.index', compact('kabupaten','kabupatens', 'provinsi'));
     }
 
     /**

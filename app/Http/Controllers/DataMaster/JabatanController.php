@@ -13,7 +13,7 @@ class JabatanController extends Controller
      */
     public function index()
     {
-        $jabatan = Jabatan::all();
+        $jabatan = Jabatan::orderBy('created_at', 'DESC')->get();
         return view('pages.datamaster.data-jabatan.index', compact('jabatan'));
     }
 

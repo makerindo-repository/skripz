@@ -14,8 +14,8 @@ class DosenPengujiController extends Controller
      */
     public function index()
     {
-        $dosen = Dosen::all();
-        $dospeng = DosenPenguji::all();
+        $dosen = Dosen::orderBy('created_at', 'DESC')->get();
+        $dospeng = DosenPenguji::orderBy('created_at', 'DESC')->get();
         return view('pages.datamaster.data-dospeng.index', compact('dospeng', 'dosen'));
     }
 

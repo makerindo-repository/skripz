@@ -16,8 +16,8 @@ class KaprodiController extends Controller
      */
     public function index()
     {
-        $kaprodi = Kaprodi::all();
-        $pts = PerguruanTinggi::all();
+        $kaprodi = Kaprodi::orderBy('created_at', 'DESC')->get();
+        $pts = PerguruanTinggi::orderBy('created_at', 'DESC')->get();
         return view('pages.datamaster.data-kaprodi.index', compact('kaprodi', 'pts'));
     }
 

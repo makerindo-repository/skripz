@@ -15,7 +15,7 @@ class SumberReferensiController extends Controller
      */
     public function index()
     {
-        $sumber = SumberReferensi::all();
+        $sumber = SumberReferensi::orderBy('created_at', 'DESC')->get();
         return view('pages.datamaster.data-sumber.index', compact('sumber'));
 
     }

@@ -13,7 +13,7 @@ class RuangController extends Controller
      */
     public function index()
     {
-        $ruang = Ruang::all();
+        $ruang = Ruang::orderBy('created_at', 'DESC')->get();
         return view('pages.datamaster.data-ruang.index', compact('ruang'));
     }
 

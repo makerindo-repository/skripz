@@ -15,9 +15,9 @@ class TopikSkripsiController extends Controller
      */
     public function index()
     {
-        $topiksk    = TopikSkripsi::all();
-        $keilmuan   = Keilmuan::all();
-        $sumber     = SumberReferensi::all();
+        $topiksk    = TopikSkripsi::orderBy('created_at', 'DESC')->get();
+        $keilmuan   = Keilmuan::orderBy('created_at', 'DESC')->get();
+        $sumber     = SumberReferensi::orderBy('created_at', 'DESC')->get();
         return view('pages.datamaster.data-topiksk.index', compact('topiksk','keilmuan','sumber'));
     }
 

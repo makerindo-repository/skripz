@@ -16,8 +16,8 @@ class MahasiswaBimbinganController extends Controller
      */
     public function index()
     {
-        $mahbim = MahasiswaBimbingan::all();
-        $mahasiswa = Mahasiswa::all();
+        $mahbim = MahasiswaBimbingan::orderBy('created_at', 'DESC')->get();
+        $mahasiswa = Mahasiswa::orderBy('created_at', 'DESC')->get();
         return view('pages.datamaster.data-mahbim.index', compact('mahbim', 'mahasiswa'));
     }
 

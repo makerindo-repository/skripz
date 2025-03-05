@@ -15,7 +15,7 @@ class KeilmuanController extends Controller
      */
     public function index()
     {
-        $keilmuan = Keilmuan::all();
+        $keilmuan = Keilmuan::orderBy('created_at', 'DESC')->get();
         return view('pages.datamaster.data-keilmuan.index', compact('keilmuan'));
     }
 

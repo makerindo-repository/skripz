@@ -15,7 +15,7 @@ class JurusanController extends Controller
      */
     public function index()
     {
-        $jurusan = Jurusan::all();
+        $jurusan = Jurusan::orderBy('created_at', 'DESC')->get();
         return view('pages.datamaster.data-jurusan.index', compact('jurusan'));
 
     }

@@ -15,7 +15,7 @@ class MitraController extends Controller
      */
     public function index()
     {
-        $mitra = Mitra::all();
+        $mitra = Mitra::orderBy('created_at', 'DESC')->get();
         return view('pages.datamaster.data-mitra.index', compact('mitra'));
     }
 

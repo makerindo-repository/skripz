@@ -17,8 +17,8 @@ class SekretariatController extends Controller
      */
     public function index()
     {
-        $sekretariat = Sekretariat::all();
-        $jabatan = Jabatan::all();
+        $sekretariat = Sekretariat::orderBy('created_at', 'DESC')->get();
+        $jabatan = Jabatan::orderBy('created_at', 'DESC')->get();
         return view('pages.datamaster.data-sekretariat.index', compact('sekretariat', 'jabatan'));
     }
 

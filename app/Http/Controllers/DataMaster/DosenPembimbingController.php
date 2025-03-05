@@ -14,8 +14,8 @@ class DosenPembimbingController extends Controller
      */
     public function index()
     {
-        $dosen = Dosen::all();
-        $dospem = DosenPembimbing::all();
+        $dosen = Dosen::orderBy('created_at', 'DESC')->get();
+        $dospem = DosenPembimbing::orderBy('created_at', 'DESC')->get();
         return view('pages.datamaster.data-dospem.index', compact('dospem', 'dosen'));
     }
 
