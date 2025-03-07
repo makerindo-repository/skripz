@@ -284,7 +284,7 @@
                             window.snap.pay(response.snapToken, {
                                 onSuccess: function (result) {
                                     alert("Pembayaran berhasil!");
-                                    location.reload(); // Reload halaman atau arahkan ke halaman lain
+                                    // location.reload(); // Reload halaman atau arahkan ke halaman lain
                                 },
                                 onPending: function (result) {
                                     alert("Pembayaran menunggu konfirmasi.");

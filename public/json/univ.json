@@ -1,0 +1,92 @@
+[
+    {
+        "nama_perguruan_tinggi": "Institut Teknologi Bandung (ITB)",
+        "kabupaten_id": 58,
+        "provinsi_id": 9
+      },
+      {
+        "nama_perguruan_tinggi": "Universitas Padjadjaran (UNPAD)",
+        "kabupaten_id": 208,
+        "provinsi_id": 9
+      },
+      {
+        "nama_perguruan_tinggi": "Universitas Pendidikan Indonesia (UPI)",
+        "kabupaten_id": 58,
+        "provinsi_id": 9
+      },
+      {
+        "nama_perguruan_tinggi": "Institut Pertanian Bogor (IPB)",
+        "kabupaten_id": 148,
+        "provinsi_id": 9
+      },
+      {
+        "nama_perguruan_tinggi": "Universitas Islam Negeri Sunan Gunung Djati Bandung (UIN SGD Bandung)",
+        "kabupaten_id": 58,
+        "provinsi_id": 9
+      },
+      {
+        "nama_perguruan_tinggi": "Universitas Telkom (Tel-U)",
+        "kabupaten_id": 58,
+        "provinsi_id": 9
+      },
+      {
+        "nama_perguruan_tinggi": "Universitas Katolik Parahyangan (UNPAR)",
+        "kabupaten_id": 58,
+        "provinsi_id": 9
+      },
+      {
+        "nama_perguruan_tinggi": "Institut Seni Budaya Indonesia Bandung (ISBI Bandung)",
+        "kabupaten_id": 58,
+        "provinsi_id": 9
+      },
+      {
+        "nama_perguruan_tinggi": "Politeknik Negeri Bandung (POLBAN)",
+        "kabupaten_id": 58,
+        "provinsi_id": 9
+      },
+      {
+        "nama_perguruan_tinggi": "Politeknik Manufaktur Bandung (POLMAN)",
+        "kabupaten_id": 58,
+        "provinsi_id": 9
+      },
+      {
+        "nama_perguruan_tinggi": "Sekolah Tinggi Pariwisata Bandung (STPB)",
+        "kabupaten_id": 58,
+        "provinsi_id": 9
+      },
+      {
+        "nama_perguruan_tinggi": "Institut Pemerintahan Dalam Negeri (IPDN)",
+        "kabupaten_id": 208,
+        "provinsi_id": 9
+      },
+      {
+        "nama_perguruan_tinggi": "Universitas Singaperbangsa Karawang (UNSIKA)",
+        "kabupaten_id": 168,
+        "provinsi_id": 9
+      },
+      {
+        "nama_perguruan_tinggi": "Universitas Siliwangi (UNSIL)",
+        "kabupaten_id": 268,
+        "provinsi_id": 9
+      },
+      {
+        "nama_perguruan_tinggi": "Institut Agama Islam Negeri Syekh Nurjati Cirebon (IAIN Syekh Nurjati)",
+        "kabupaten_id": 234,
+        "provinsi_id": 9
+      },
+      {
+        "nama_perguruan_tinggi": "Politeknik Negeri Indramayu (POLINDRA)",
+        "kabupaten_id": 103,
+        "provinsi_id": 9
+      },
+      {
+        "nama_perguruan_tinggi": "Politeknik Kelautan dan Perikanan Pangandaran (PKPP)",
+        "kabupaten_id": 461,
+        "provinsi_id": 9
+      },
+      {
+        "nama_perguruan_tinggi": "Politeknik Kelautan dan Perikanan Karawang (PKPK)",
+        "kabupaten_id": 163,
+        "provinsi_id": 9
+      }
+]

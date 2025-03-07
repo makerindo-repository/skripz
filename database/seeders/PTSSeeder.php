@@ -16,7 +16,7 @@ class PTSSeeder extends Seeder
     {
         // Lokasi file JSON
         $filePaths = [
-            'pts' => public_path('json/pts.json'),
+            'pts' => public_path('json/univ.json'),
         ];
 
         // Validasi keberadaan file JSON
