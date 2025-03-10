@@ -53,7 +53,7 @@
                                                     <td>{{ $loop->iteration }}</td>
                                                     <td>{{ $item->dosen->nama_dosen }}</td>
                                                     <td>
-                                                        @foreach (json_decode($item->dosen->bidang_keahlian) as $bidkeahlian)
+                                                        @foreach (json_decode($item->dosen->bidang_keahlian ) ?? [] as $bidkeahlian)
                                                             {{ $bidkeahlian }},
                                                         @endforeach
                                                     </td>
