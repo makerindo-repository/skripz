@@ -6,6 +6,7 @@ use Carbon\Carbon;
 use App\Models\User;
 use App\Models\Dosen;
 use App\Models\Ruang;
+use App\Models\Mahasiswa;
 use App\Models\Penjadwalan;
 use Illuminate\Http\Request;
 
@@ -18,7 +19,7 @@ class PenjadwalanController extends Controller
     {
         $penjadwalan = Penjadwalan::all();
         $dosen = Dosen::all();
-        $mahasiswa = User::where('role_id', 3)->get();
+        $mahasiswa = Mahasiswa::all();
         $ruang = Ruang::all();
         $today = Carbon::today();
         // Mendapatkan tanggal besok
