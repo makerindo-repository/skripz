@@ -5,7 +5,7 @@
 
         <div class="card mb-4">
             <div class="card-body">
-                <h6 class="text-center font-weight-bold mb-3">Detail Hasil Penilaian Sidang</h6>
+                <h6 class="text-center font-weight-bold mb-3">Detail Hasil Penilaian Seminar</h6>
                 <table class="mb-3">
                     <tr>
                         <th>Nama Mahasiswa</th>
@@ -43,7 +43,7 @@
                             <tr>
                                 <th class="text-center"><b>I</b></th>
                                 <th colspan="2"><b>Tulisan</b></th>
-                                <th class="text-center" colspan="2"><b>{{ $tulisan->sum(fn($item) => $item->sidangs->nilai ?? 0) }}</b></th>
+                                <th class="text-center" colspan="2"><b>{{ $tulisan->sum(fn($item) => $item->seminar->nilai ?? 0) }}</b></th>
                                 <th rowspan="{{ $tulisan->count() + 1 }}"></th>
 
                             </tr>
@@ -52,7 +52,7 @@
                                     <td></td>
                                     <td class="text-center">{{ $loop->iteration }}</td>
                                     <td>{{ $item->judul }}</td>
-                                    <td class="text-center">{{ $item->sidangs->nilai }}</td>
+                                    <td class="text-center">{{ $item->seminar->nilai }}</td>
                                     <td class="text-center"></td>
                                 </tr>
                             @endforeach
@@ -60,7 +60,7 @@
                             <tr>
                                 <th class="text-center"><b>II</b></th>
                                 <th colspan="2"><b>Presentasi</b></th>
-                                <th class="text-center" colspan="2"><b>{{ $presentasi->sum(fn($item) => $item->sidangs->nilai ?? 0) }}</b></th>
+                                <th class="text-center" colspan="2"><b>{{ $presentasi->sum(fn($item) => $item->seminar->nilai ?? 0) }}</b></th>
                                 <th rowspan="{{ $presentasi->count() + 1 }}"></th>
                             </tr>
                             @foreach ($presentasi as $item)
@@ -68,7 +68,7 @@
                                     <td></td>
                                     <td class="text-center">{{ $loop->iteration }}</td>
                                     <td>{{ $item->judul }}</td>
-                                    <td class="text-center">{{ $item->sidangs->nilai }}</td>
+                                    <td class="text-center">{{ $item->seminar->nilai }}</td>
                                     <td class="text-center"></td>
                                 </tr>
                             @endforeach
@@ -76,7 +76,7 @@
                             <tr>
                                 <th class="text-center"><b>III</b></th>
                                 <th colspan="2"><b>Penguasaan Materi</b></th>
-                                <th class="text-center" colspan="2"><b>{{ $penguasaan->sum(fn($item) => $item->sidangs->nilai ?? 0) }}</b></th>
+                                <th class="text-center" colspan="2"><b>{{ $penguasaan->sum(fn($item) => $item->seminar->nilai ?? 0) }}</b></th>
                                 <th rowspan="{{ $penguasaan->count() + 1 }}"></th>
                             </tr>
                             @foreach ($penguasaan as $item)
@@ -84,7 +84,7 @@
                                     <td></td>
                                     <td class="text-center">{{ $loop->iteration }}</td>
                                     <td>{{ $item->judul }}</td>
-                                    <td class="text-center">{{ $item->sidangs->nilai }}</td>
+                                    <td class="text-center">{{ $item->seminar->nilai }}</td>
                                     <td class="text-center"></td>
                                 </tr>
                             @endforeach
@@ -92,7 +92,7 @@
                             <tr>
                                 <th class="text-center"><b>IV</b></th>
                                 <th colspan="2"><b>Kualitas Produk</b></th>
-                                <th class="text-center" colspan="2"><b>{{ $kualitas->sum(fn($item) => $item->sidangs->nilai ?? 0) }}</b></th>
+                                <th class="text-center" colspan="2"><b>{{ $kualitas->sum(fn($item) => $item->seminar->nilai ?? 0) }}</b></th>
                                 <th rowspan="{{ $kualitas->count() + 1 }}"></th>
                             </tr>
                             @foreach ($kualitas as $item)
@@ -100,7 +100,7 @@
                                     <td></td>
                                     <td class="text-center">{{ $loop->iteration }}</td>
                                     <td>{{ $item->judul }}</td>
-                                    <td class="text-center">{{ $item->sidangs->nilai }}</td>
+                                    <td class="text-center">{{ $item->seminar->nilai }}</td>
                                     <td class="text-center"></td>
                                 </tr>
                             @endforeach

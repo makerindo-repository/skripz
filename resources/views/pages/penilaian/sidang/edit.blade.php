@@ -19,15 +19,15 @@
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href=" {{ route('penilaian.index') }} ">Penilaian</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Penilaian Seminar</li>
+                            <li class="breadcrumb-item active" aria-current="page">Penilaian Sidang</li>
                         </ol>
                     </nav>
                     <!-- Striped rows -->
                     <div class="col-md-12">
                         <div class="card shadow-smooth custom-card">
                             <div class="card-body">
-                                <h6 class="card-title mb-3">Form Penilaian Mahasiswa Seminar</h6>
-                                <form action="{{ route('seminar.store') }}" method="POST">
+                                <h6 class="card-title mb-3">Form Penilaian Mahasiswa Sidang</h6>
+                                <form action="{{ route('sidang.store') }}" method="POST">
                                     @csrf
                                     {{-- @method('Patch') --}}
                                     <div class="row mb-2">
