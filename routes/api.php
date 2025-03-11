@@ -18,6 +18,8 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+Route::post('/bayar-langganan/callback/thanks', [App\Http\Controllers\Content\LanggananController::class, 'paymentCallback']);
+
 Route::get('/jadwal', [App\Http\Controllers\Api\GeneralController::class, 'jadwal'])->name('jadwal');
 Route::get('/progress', [App\Http\Controllers\Api\GeneralController::class, 'progress'])->name('progress');
 Route::put('/progress/{id}', [App\Http\Controllers\Api\GeneralController::class, 'progress_update'])->name('progress_update');
