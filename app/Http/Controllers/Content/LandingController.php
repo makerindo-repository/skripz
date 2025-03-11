@@ -26,12 +26,12 @@ class LandingController extends Controller
         SEOTools::setDescription('SkripZ adalah platform terintegrasi dengan fitur pemantauan real-time, komunikasi langsung, dan penyimpanan dokumen yang aman. Kelola skripsi dengan mudah dan transparan melalui SkripZ!');
         SEOTools::opengraph()->setUrl('https://skripz.web.id/');
         SEOTools::opengraph()->addProperty('type', 'pendidikan');
-        SEOTools::opengraph()->addImage('http://skripz.test/assets/images/skripzz.png', [
+        SEOTools::opengraph()->addImage('https://skripz.web.id/assets/images/skripzz.png', [
             'type' => 'image/jpeg',
             'width' => '200',
             'height' => '200',
         ]);
-        SEOTools::jsonLd()->addImage('http://skripz.test/assets/images/skripzz.png');
+        SEOTools::jsonLd()->addImage('https://skripz.web.id/assets/images/skripzz.png');
         SEOMeta::addKeyword([
             'skripsi', 
             'universitas', 
