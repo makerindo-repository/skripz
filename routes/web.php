@@ -48,12 +48,13 @@ Route::get('/dashboard', function () {
     return redirect('/dashboard');
 });
 
+Route::get('/bayar-langganan/callback/thanks', [App\Http\Controllers\Content\LanggananController::class, 'paymentCallback'])->name('premium.callback');
+
 Route::middleware(['auth'])->group(function () {
 
     Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'index'])->name('dashboard');
     Route::get('/langganan', [App\Http\Controllers\LanggananController::class, 'index'])->name('langganan.index');
     Route::get('/premium/pay', [App\Http\Controllers\LanggananController::class, 'payPremium'])->name('premium.pay');
-    Route::get('/bayar-langganan/callback/thanks', [App\Http\Controllers\Content\LanggananController::class, 'paymentCallback'])->name('premium.callback');
     Route::post('/pembayaran', [App\Http\Controllers\Content\LanggananController::class, 'pembayaran'])->name('generate.snapToken');
 
     Route::get('/bayar-langganan/{slug}', [App\Http\Controllers\Content\LanggananController::class, 'store'])->name('langganan.store');
