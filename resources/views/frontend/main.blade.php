@@ -3,6 +3,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
 <head>
+    {!! SEO::generate() !!}
+
     @include('frontend.script.topscript')
     <style>
         body{
