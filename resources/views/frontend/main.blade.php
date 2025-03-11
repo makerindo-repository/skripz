@@ -4,6 +4,7 @@
 
 <head>
     {!! SEO::generate() !!}
+    <meta name="google-site-verification" content="wTQp3jQVu-17aJleOvvBtaL1yj-2Z7gd7wekYyStm4A" />
 
     @include('frontend.script.topscript')
     <style>
