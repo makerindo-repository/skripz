@@ -2,7 +2,13 @@
 
 @section('content')
     <div class="container">
-
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href=" {{ route('hasil-penilaian.index') }} ">Hasil Penilaian</a></li>
+                <li class="breadcrumb-item"><a href=" {{ route('sidang.daftar') }} ">Sidang</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Detail</li>
+            </ol>
+        </nav>
         <div class="card mb-4">
             <div class="card-body">
                 <h6 class="text-center font-weight-bold mb-3">Detail Hasil Penilaian Sidang</h6>

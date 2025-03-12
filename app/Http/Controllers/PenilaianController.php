@@ -18,6 +18,7 @@ use App\Models\KartuBimbingan;
 use App\Models\KualitasProduk;
 use App\Models\SeminarPenguji;
 use App\Models\PenguasaanMateri;
+use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
 
 class PenilaianController extends Controller
@@ -25,6 +26,10 @@ class PenilaianController extends Controller
     public function penilaian()
     {
         return view('pages.penilaian.index');
+    }
+    public function hasilpenilaianindex()
+    {
+        return view('pages.penilaian.menupenilaian');
     }
 
     public function sidang() {
@@ -56,43 +61,46 @@ class PenilaianController extends Controller
     }
 
     public function penilaianSidang(Request $request)
-    {
-        // Validasi input
-        $request->validate([
-            'mahasiswa_id' => 'required|exists:mahasiswas,id',
-            'dosen_id' => 'required|array',
-            'dosen_id.*' => 'exists:dosens,id',
-            'penilaian_id' => 'required|array',
-            'penilaian_id.*.id' => 'exists:penilaians,id',
-            'nilai' => 'required|array',
-            'nilai.*.nilai' => 'integer|min:0|max:5'
-        ]);
-
+{
+    DB::beginTransaction();
+    try {
         // Simpan nilai penilaian sidang
-        foreach ($request->penilaian_id as $id => $penilaian) {
+        foreach ($request->penilaian_id as $id) {
             Sidang::updateOrCreate(
                 [
                     'mahasiswa_id' => $request->mahasiswa_id,
-                    'penilaian_id' => $penilaian['id']
+                    'penilaian_id' => $id
                 ],
-                ['nilai' => $request->nilai[$id]['nilai']]
+                ['nilai' => $request->nilai[$id]]
             );
         }
 
-        // Simpan dosen penguji (hapus dulu yang lama, lalu tambahkan baru)
+        // Hapus semua dosen penguji terkait mahasiswa ini
         SidangPenguji::whereHas('sidang', function ($query) use ($request) {
             $query->where('mahasiswa_id', $request->mahasiswa_id);
         })->delete();
 
-        foreach ($request->dosen_id as $dosen_id) {
-            SidangPenguji::create([
-                'sidang_id' => Sidang::where('mahasiswa_id', $request->mahasiswa_id)->first()->id,
-                'dosen_id' => $dosen_id
-            ]);
+        // Ambil semua sidang yang baru saja disimpan
+        $sidang = Sidang::where('mahasiswa_id', $request->mahasiswa_id)->first();
+
+        // Pastikan sidang tidak null sebelum menyimpan dosen penguji
+        if ($sidang) {
+            foreach ($request->dosen_id as $dosen_id) {
+                SidangPenguji::create([
+                    'sidang_id' => $sidang->id,
+                    'dosen_id' => $dosen_id
+                ]);
+            }
         }
 
-        return redirect()->back()->with('success', 'store');
+        DB::commit();
+        return redirect()->back()->with('success', 'Data sidang berhasil disimpan.');
+    } catch (\Exception $e) {
+        DB::rollback();
+        return redirect()->back()->with('error', 'Terjadi kesalahan: ' . $e->getMessage());
     }
+}
+
     public function penilaianSeminar(Request $request)
     {
         // Validasi input

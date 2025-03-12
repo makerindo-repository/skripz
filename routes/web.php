@@ -145,12 +145,16 @@ Route::middleware(['auth'])->group(function () {
         Route::get('sidang', [App\Http\Controllers\PenilaianController::class, 'sidang'])->name('sidang.index');
         Route::get('seminar', [App\Http\Controllers\PenilaianController::class, 'seminar'])->name('seminar.index');
         Route::post('/sidang/store', [App\Http\Controllers\PenilaianController::class, 'penilaianSidang'])->name('sidang.store');
-        Route::get('/sidang/{id}/hasil', [App\Http\Controllers\PenilaianController::class, 'hasilPenilaian'])->name('sidang.hasil');
-        Route::get('/sidang/daftar', [App\Http\Controllers\PenilaianController::class, 'daftarPenilaian'])->name('sidang.daftar');
         Route::post('/seminar/store', [App\Http\Controllers\PenilaianController::class, 'penilaianSeminar'])->name('seminar.store');
-        Route::get('/seminar/{id}/hasil', [App\Http\Controllers\PenilaianController::class, 'hasilSeminar'])->name('seminar.hasil');
-        Route::get('/seminar/daftar', [App\Http\Controllers\PenilaianController::class, 'daftarSeminar'])->name('seminar.daftar');
 
+
+    });
+    Route::prefix('hasil-penilaian')->group(function () {
+        Route::get('/', [App\Http\Controllers\PenilaianController::class, 'hasilpenilaianindex'])->name('hasil-penilaian.index');
+        Route::get('/sidang', [App\Http\Controllers\PenilaianController::class, 'daftarPenilaian'])->name('sidang.daftar');
+        Route::get('/seminar', [App\Http\Controllers\PenilaianController::class, 'daftarSeminar'])->name('seminar.daftar');
+        Route::get('/sidang/detail/{id}', [App\Http\Controllers\PenilaianController::class, 'hasilPenilaian'])->name('sidang.hasil');
+        Route::get('/seminar/detail/{id}', [App\Http\Controllers\PenilaianController::class, 'hasilSeminar'])->name('seminar.hasil');
 
     });
     // Tulisan Route

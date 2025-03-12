@@ -78,7 +78,7 @@
             </li>
         </ul>
         @can('akses data-master')
-            <p>Menu utama</p>
+            <p class="text-muted nav-heading mt-4 mb-1">Menu utama</p>
             <ul class="navbar-nav flex-fill w-100 mb-2">
                 <li class="nav-item w-100 {{ Route::currentRouteNamed('datautama.index') ? 'active' : '' }}">
                     <a class="nav-link" href="{{ route('datautama.index') }}">
@@ -140,19 +140,10 @@
         @endcan
         <ul class="navbar-nav flex-fill w-100 mb-2">
             <li
-                class="nav-item w-100 {{ Route::currentRouteNamed('sidang.daftar', 'sidang.hasil') ? 'active' : '' }}">
-                <a class="nav-link" href="{{ route('sidang.daftar') }}">
+                class="nav-item w-100 {{ Route::currentRouteNamed('hasil-penilaian.index', 'sidang.daftar', 'sidang.hasil', 'seminar.daftar', 'seminar.hasil') ? 'active' : '' }}">
+                <a class="nav-link" href="{{ route('hasil-penilaian.index') }}">
                     <i class="fe bi-bar-chart-steps fe-16 "></i>
-                    <span class="ml-3 item-text font-weight-bold">Hasil Penilaian Sidang</span>
-                </a>
-            </li>
-        </ul>
-        <ul class="navbar-nav flex-fill w-100 mb-2">
-            <li
-                class="nav-item w-100 {{ Route::currentRouteNamed('seminar.daftar', 'seminar.hasil') ? 'active' : '' }}">
-                <a class="nav-link" href="{{ route('seminar.daftar') }}">
-                    <i class="fe bi-bar-chart-steps fe-16 "></i>
-                    <span class="ml-3 item-text font-weight-bold">Hasil Penilaian Seminar</span>
+                    <span class="ml-3 item-text font-weight-bold">Hasil Penilaian</span>
                 </a>
             </li>
         </ul>
@@ -168,7 +159,7 @@
             </ul>
         @endcan
         @can('akses manajemen')
-            <p>Manajemen</p>
+            <p class="text-muted nav-heading mt-4 mb-1">Manajemen</p>
             <ul class="navbar-nav flex-fill w-100 mb-2">
                 <li
                     class="nav-item w-100 {{ Route::currentRouteNamed('management.index', 'management-role.index', 'management-role.create', 'management-role.edit', 'management-user.index', 'management-user.create', 'management-user.edit') ? 'active' : '' }}">
@@ -210,7 +201,7 @@
             </ul>
         @endcan
         @can('akses pengaturan-aplikasi')
-            <p>Extra</p>
+            <p class="text-muted nav-heading mt-4 mb-1">Extra</p>
             <ul class="navbar-nav flex-fill w-100 mb-2">
                 <li
                     class="nav-item w-100 {{ Route::currentRouteNamed('lowongan.index', 'lowongan.create', 'lowongan.edit', 'lowongan.show') ? 'active' : '' }}">
@@ -242,7 +233,7 @@
             </ul>
         @endcan
         @can('akses pengaturan-berkas')
-            <p>Pengaturan</p>
+            <p class="text-muted nav-heading mt-4 mb-1">Pengaturan</p>
             <ul class="navbar-nav flex-fill w-100 mb-2">
                 <li class="nav-item w-100 {{ Route::currentRouteNamed('berkas.index') ? 'active' : '' }}">
                     <a class="nav-link" href="{{ route('berkas.index') }}">
@@ -271,7 +262,7 @@
             </li>
         </ul>
         @can('akses data-konten-frontend')
-            <p>Data konten FE</p>
+            <p class="text-muted nav-heading mt-4 mb-1">CMS Menu</p>
             <ul class="navbar-nav flex-fill w-100 mb-2">
                 <li class="nav-item w-100 {{ Route::currentRouteNamed('beranda.index') ? 'active' : '' }}">
                     <a class="nav-link" href="{{ route('beranda.index') }}">
