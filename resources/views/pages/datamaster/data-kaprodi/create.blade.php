@@ -82,6 +82,18 @@
                             <span class="invalid-feedback">{{ $message }}</span>
                         @enderror
                     </div>
+                    <div class="form-group mb-3">
+                        <label for="profile-picture-input" class="required">Foto</label>
+                        <p class="text-muted"><small>Ukuran gambar maksimum: 2MB. Format gambar yang
+                                diizinkan: JPG, JPEG, PNG.</small></p>
+                        <input type="file" name="foto" id="profile-picture-input" class="form-control-file"
+                            accept="image/*" onchange="previewProfilePicture()" required>
+                        <br>
+                        <div class="profile-picture-container">
+                            <img id="profile-picture-preview" src="{{ asset('assets/images/Profiledefault.png') }}"
+                                alt="Profile Picture" height="100" width="100"style="display: none;">
+                        </div>
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn mb-2 btn-danger" data-dismiss="modal">Batal</button>

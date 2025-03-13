@@ -88,4 +88,32 @@
     </div>
     @include('pages.datamaster.data-kaprodi.create')
     @include('pages.datamaster.data-kaprodi.edit')
+    <script>
+        // Fungsi untuk memeriksa apakah input file kosong dan menampilkan gambar default jika ya
+        window.onload = function() {
+            var input = document.getElementById('profile-picture-input');
+            var preview = document.getElementById('profile-picture-preview');
+
+            if (!input.value) {
+                preview.src = "{{ asset('assets/images/Profiledefault.png') }}";
+            }
+        }
+
+        // Fungsi untuk memperbarui pratinjau gambar saat gambar baru dipilih
+        function previewProfilePicture() {
+            var input = document.getElementById('profile-picture-input');
+            var preview = document.getElementById('profile-picture-preview');
+
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function(e) {
+                    preview.src = e.target.result;
+                    preview.style.display = 'block';
+                }
+                reader.readAsDataURL(input.files[0]);
+            } else {
+                preview.src = "{{ asset('assets/images/Profiledefault.png') }}";
+            }
+        }
+    </script>
 @endsection

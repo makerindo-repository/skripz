@@ -4,6 +4,7 @@ namespace App\Http\Controllers\DataMaster;
 
 use App\Models\User;
 use App\Models\Kaprodi;
+use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use App\Models\PerguruanTinggi;
 use App\Http\Controllers\Controller;
@@ -50,12 +51,13 @@ class KaprodiController extends Controller
             'no_telepon'     => 'required|string|max:15',
             'pts_id'         => 'nullable|exists:perguruan_tinggis,id',
         ]);
-
+        $imageName = time() . '_' . $request->file('foto')->getClientOriginalName();
+        $request->file('foto')->move(public_path('images/kaprodi'), $imageName);
         // Simpan data user
         $user = User::create([
             'role_id'   => $request->role_id,
             'pts_id'    => $request->pts_id,
-            'foto'      => 'assets/images/Profiledefault.png',
+            'foto'      => 'images/kaprodi/'. $imageName,
             'name'      => $request->name,
             'email'     => $request->email,
             'password'  => Hash::make('password1234'),
@@ -70,7 +72,7 @@ class KaprodiController extends Controller
             'nip_kaprodi'   => $request->nip_kaprodi,
             'no_telepon'    => $request->no_telepon,
             'jenis_kelamin' => $request->jenis_kelamin,
-            'foto'          => 'assets/images/Profiledefault.png',
+            'foto'          => 'images/kaprodi/'. $imageName,
         ]);
 
         return back()->with('success', 'store');
@@ -118,11 +120,22 @@ class KaprodiController extends Controller
             'no_telepon'     => 'required|string|max:15',
             'pts_id'         => 'nullable|exists:perguruan_tinggis,id',
         ]);
+        if ($request->hasFile('foto')) {
+            // Hapus foto sebelumnya jika ada
+            if ($kaprodi->foto && file_exists(public_path($kaprodi->foto))) {
+                unlink(public_path($kaprodi->foto));
+            }
 
+            $file = $request->file('foto');
+            $imageName = strtoupper(Str::random(5)) . '-' . rand() . '-' . time() . '.' . $file->getClientOriginalExtension();
+            $file->move(public_path('images/kaprodi'), $imageName);
+        }
         $user->update([
             'pts_id'    => $request->pts_id,
             'name'      => $request->name,
             'email'     => $request->email,
+            'foto'      => isset($imageName) ? 'images/kaprodi/' . $imageName : $kaprodi->foto,
+
         ]);
 
         // Update data Kaprodi
@@ -132,6 +145,7 @@ class KaprodiController extends Controller
             'nip_kaprodi'   => $request->nip_kaprodi,
             'no_telepon'    => $request->no_telepon,
             'jenis_kelamin' => $request->jenis_kelamin,
+            'foto'          => isset($imageName) ? 'images/kaprodi/' . $imageName : $kaprodi->foto,
         ]);
 
         return back()->with('success', 'update');
