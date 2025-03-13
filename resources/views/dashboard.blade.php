@@ -769,7 +769,7 @@
                         fontSize: '10px',
                         fontWeight: 'bold',
                         fontFamily: 'Montserrat, sans-serif',
-                        colors: ['#ffffff', '#353957'],
+                        colors: ['#353957', '#ffffff'],
                     },
                 },
                 plotOptions: {
