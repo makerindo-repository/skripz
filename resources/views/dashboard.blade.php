@@ -786,7 +786,7 @@
                     fontFamily: 'Montserrat, sans-serif',
                     fontWeight: 400,
                     labels: {
-                        colors: ['#ffffff', '#ffffff'],
+                        colors: ['#353957', '#ffffff'],
                     },
                     markers: {
                         width: 8,
@@ -806,7 +806,7 @@
                             fontFamily: 'Montserrat, sans-serif',
                             fontWeight: 400,
                             labels: {
-                                colors: ['#ffffff', '#ffffff'],
+                                colors: ['#353957', '#ffffff'],
                             },
                         }
                     }
