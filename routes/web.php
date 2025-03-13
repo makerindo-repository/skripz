@@ -268,6 +268,7 @@ Route::middleware(['auth'])->group(function () {
 
     Route::middleware('can:akses pengumuman')->group(function () {
         Route::get('/pengumuman', [App\Http\Controllers\PengumumanController::class, 'index'])->name('pengumuman.index');
+        Route::get('/pengumuman/create', [App\Http\Controllers\PengumumanController::class, 'create'])->name('pengumuman.create');
         Route::post('/pengumuman/store', [App\Http\Controllers\PengumumanController::class, 'sendPengumuman'])->name('pengumuman.send');
         Route::get('/notifications', [App\Http\Controllers\PengumumanController::class, 'getNotifications'])->name('notifications.list');
         Route::post('/pengumuman/{id}/mark-read', [App\Http\Controllers\PengumumanController::class, 'markAsRead']);

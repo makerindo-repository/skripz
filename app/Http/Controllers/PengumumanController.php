@@ -18,6 +18,10 @@ class PengumumanController extends Controller
         $pengumuman = auth()->user()->notifications;
         return view('pages.pengumuman.index', compact('pengumuman'));
     }
+    public function create()
+    {
+        return view('pages.pengumuman.create');
+    }
 
     // Kirim pengumuman ke semua user
     public function sendPengumuman(Request $request)
@@ -49,7 +53,7 @@ class PengumumanController extends Controller
     {
         return auth()->user()->notifications;
     }
-    
+
     public function markAsRead($id)
     {
         // Cek apakah pengumuman ada
