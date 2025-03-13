@@ -625,13 +625,12 @@
                 stroke: {
                     show: false,
                 },
-                colors: ['#353957', '#ffffff'],
+                colors: ['#353957', '#dc3545'],
                 dataLabels: {
                     style: {
                         fontSize: '10px',
                         fontWeight: 'bold',
                         fontFamily: 'Montserrat, sans-serif',
-                        colors: ['#ffffff', '#353957'],
                     },
                 },
                 plotOptions: {
@@ -695,13 +694,12 @@
                 stroke: {
                     show: false,
                 },
-                colors: ['#353957', '#ffffff'],
+                colors: ['#353957', '#dc3545'],
                 dataLabels: {
                     style: {
                         fontSize: '10px',
                         fontWeight: 'bold',
                         fontFamily: 'Montserrat, sans-serif',
-                        colors: ['#ffffff', '#353957'],
                     },
                 },
                 plotOptions: {
@@ -763,13 +761,12 @@
                 stroke: {
                     show: false,
                 },
-                colors: ['#353957', '#ffffff'],
+                colors: ['#353957', '#dc3545'],
                 dataLabels: {
                     style: {
                         fontSize: '10px',
                         fontWeight: 'bold',
                         fontFamily: 'Montserrat, sans-serif',
-                        colors: ['#ffffff', '#353957'],
                     },
                 },
                 plotOptions: {
@@ -831,13 +828,12 @@
                 stroke: {
                     show: false,
                 },
-                colors: ['#1b68ff', '#ffffff'],
+                colors: ['#1b68ff', '#dc3545'],
                 dataLabels: {
                     style: {
                         fontSize: '10px',
                         fontWeight: 'bold',
                         fontFamily: 'Montserrat, sans-serif',
-                        colors: ['#ffffff', '#1b68ff'],
                     },
                 },
                 plotOptions: {
@@ -898,13 +894,12 @@
                 stroke: {
                     show: false,
                 },
-                colors: ['#dc3545', '#ffffff'],
+                colors: ['#353957', '#dc3545'],
                 dataLabels: {
                     style: {
                         fontSize: '10px',
                         fontWeight: 'bold',
                         fontFamily: 'Montserrat, sans-serif',
-                        colors: ['#ffffff', '#dc3545'],
                     },
                 },
                 plotOptions: {
@@ -968,13 +963,12 @@
                 stroke: {
                     show: false,
                 },
-                colors: ['#353957', '#ffffff'],
+                colors: ['#353957', '#dc3545'],
                 dataLabels: {
                     style: {
                         fontSize: '10px',
                         fontWeight: 'bold',
                         fontFamily: 'Montserrat, sans-serif',
-                        colors: ['#ffffff', '#353957'],
                     },
                 },
                 plotOptions: {
