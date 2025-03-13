@@ -94,6 +94,7 @@ class PenilaianController extends Controller
             'dosen_id' => $dosen_id
         ]);
     }
+    return redirect()->back()->with('success', 'store');
 
 }
 
