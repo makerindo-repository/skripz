@@ -261,6 +261,26 @@
                 </a>
             </li>
         </ul>
+        <ul class="navbar-nav flex-fill w-100 mb-2">
+            <li class="nav-item w-100">
+                <a class="nav-link" href="{{ route('fitur.index') }}">
+                    <i class="fe fe-sliders fe-16"></i>
+                    <span class="ml-3 item-text font-weight-bold">Fitur</span>
+                </a>
+            </li>
+            <li class="nav-item w-100">
+                <a class="nav-link" href="{{ route('fitur-akun.index') }}">
+                    <i class="fe fe-sliders fe-16"></i>
+                    <span class="ml-3 item-text font-weight-bold">Fitur Akun</span>
+                </a>
+            </li>
+            <li class="nav-item w-100">
+                <a class="nav-link" href="{{ route('akun-status.index') }}">
+                    <i class="fe fe-sliders fe-16"></i>
+                    <span class="ml-3 item-text font-weight-bold">Status Akun</span>
+                </a>
+            </li>
+        </ul>
         @can('akses data-konten-frontend')
             <p class="text-muted nav-heading mt-4 mb-1">CMS Menu</p>
             <ul class="navbar-nav flex-fill w-100 mb-2">
