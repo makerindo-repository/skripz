@@ -36,6 +36,7 @@
                                         <th>#</th>
                                         <th>Jenis Akun</th>
                                         <th>Fitur</th>
+                                        <th>Limit</th>
                                         <th class="text-center">Aksi</th>
                                     </tr>
                                 </thead>
@@ -43,8 +44,9 @@
                                     @foreach ($fiturAkuns as $fitur)
                                         <tr>
                                             <td>{{ $loop->iteration }}</td>
-                                            <td>{{ $fitur->akun_id }}</td>
-                                            <td>{{ $fitur->fitur_id }}</td>
+                                            <td>{{ $fitur->akunStatus->name }}</td>
+                                            <td>{{ $fitur->fitur->name }}</td>
+                                            <td>{{ $fitur->limit }}</td>
                                             <td class="text-center">
                                                 <form action="{{ route('fitur.destroy', $fitur->id) }}" method="POST"
                                                     id="Hapus{{ $fitur->id }}">
