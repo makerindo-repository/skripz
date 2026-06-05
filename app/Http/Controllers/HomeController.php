@@ -21,6 +21,7 @@ use App\Models\KelompokKeilmuan;
 use App\Models\PredikatKelulusan;
 use App\Models\MahasiswaBimbingan;
 use App\Http\Controllers\Controller;
+use App\Models\ManajemenLangganan;
 
 class HomeController extends Controller
 {
@@ -67,6 +68,8 @@ class HomeController extends Controller
         $s1 = $predlulusS1->first();
         $d3 = $predlulusD3->first();
         $today = Carbon::today();
+                $langganan          = ManajemenLangganan::all();
+
         // Mendapatkan tanggal besok
         $tomorrow = Carbon::tomorrow();
         // Mendapatkan tanggal awal minggu ini
@@ -82,6 +85,6 @@ class HomeController extends Controller
 
         $tasks = Task::all();
         return view('dashboard', compact('penjadwalan','ruang', 'dospem','kelilmuan', 'kaprodi', 'dosen', 'mitra', 'sekretariat', 'mahasiswa',
-        'predlulus', 'thakademik','jumlahMahasiswaS1','jumlahMahasiswaD3', 's1', 'd3', 'penjadwalanHariIni' , 'penjadwalanBesok', 'penjadwalanMingguIni', 'tasks', 'akun', 'kontak', 'pelamar', 'pengumuman'));
+        'predlulus', 'thakademik','jumlahMahasiswaS1','jumlahMahasiswaD3', 's1', 'd3', 'penjadwalanHariIni' , 'penjadwalanBesok', 'penjadwalanMingguIni', 'tasks', 'akun', 'kontak', 'pelamar', 'pengumuman', 'langganan'));
     }
 }
