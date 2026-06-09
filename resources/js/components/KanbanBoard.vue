@@ -13,38 +13,54 @@
 
                 <!-- Tasks -->
                 <draggable
-                  class="flex-1 overflow-hidden"
                   v-model="status.tasks"
+                  item-key="id"
+                  class="flex-1 overflow-hidden"
                   v-bind="taskDragOptions"
                   @end="handleTaskMoved"
                 >
-                  <transition-group
-                    class="flex-1 flex flex-col h-full overflow-x-hidden overflow-y-auto rounded shadow-xs"
-                    tag="div"
-                  >
-                    <div
-                      v-for="task in status.tasks"
-                      :key="task.id"
-                      class="card shadow mb-2 custom-hover "
-                    >
-                    <div class="card-body">
-
+                  <template #item="{ element: task }">
+                    <div class="card shadow mb-2 custom-hover">
+                      <div class="card-body">
                         <h6 class="text-dark mb-2 h7">
-                            {{ task.title }}
-                      </h6>
-                      <p class="text-muted small">
+                          {{ task.title }}
+                        </h6>
+
+                        <p class="text-muted small" v-if="!expandedDescriptions[task.id]">
+                          {{ truncateText(task.description, 20) }}
+                          <a v-if="countWords(task.description) > 20"
+                            href="javascript:void(0)"
+                            @click="toggleDescription(task.id)"
+                            class="text-primary font-weight-bold">
+                            More
+                          </a>
+                        </p>
+
+                        <p class="text-muted small" v-else>
                           {{ task.description }}
-                      </p>
+                          <a href="javascript:void(0)"
+                            @click="toggleDescription(task.id)"
+                            class="text-primary font-weight-bold">
+                            Less
+                          </a>
+                        </p>
                       </div>
+
                       <div class="card-footer">
-                          <div class="float-right">
-                              <a class="btn btn-sm btn-danger" href="javascript:void(0)" @click="handleTaskDelete(task.id)">Hapus</a>
-                              <a class="btn btn-sm btn-primary" href="javascript:void(0)" data-toggle="modal" :data-target="'#editModal' + task.id">Edit</a>
-                          </div>
+                        <div class="float-right">
+                          <button class="btn btn-sm btn-danger me-2"
+                            @click="handleTaskDelete(task.id)">
+                            Hapus
+                          </button>
+
+                          <button class="btn btn-sm btn-primary me-2"
+                            @click="openEditTask(task)">
+                            Edit
+                          </button>
+                        </div>
                       </div>
                     </div>
-                    <!-- ./Tasks -->
-                  </transition-group>
+                  </template>
                 </draggable>
                 <!-- No Tasks -->
                 <div
@@ -76,22 +92,31 @@
     </center>
     </div>
 </div>
+<!-- Edit Task Modal -->
+<edit-task-form
+  v-if="editingTask"
+  :task="editingTask"
+  @task-updated="handleTaskUpdated"
+  @closed="editingTask = null"
+></edit-task-form>
 </template>
 
 <script>
 import draggable from "vuedraggable";
 import AddTaskForm from "./AddTaskForm.vue";
+import EditTaskForm from "./EditTaskForm.vue";
 
 export default {
-  components: { draggable, AddTaskForm },
+  components: { draggable, AddTaskForm, EditTaskForm },
   props: {
     initialData: Array
   },
   data() {
     return {
       statuses: [],
-
-      newTaskForStatus: 0
+      newTaskForStatus: 0,
+      editingTask: null,
+      expandedDescriptions: {}
     };
   },
   computed: {
@@ -130,6 +155,36 @@ export default {
       axios.put("/tasks/sync", { columns: this.statuses }).catch(err => {
         console.log(err.response);
       });
+    },
+    truncateText(text, wordLimit) {
+      if (!text) return '';
+      const words = text.split(' ');
+      if (words.length <= wordLimit) return text;
+      return words.slice(0, wordLimit).join(' ') + '...';
+    },
+    countWords(text) {
+      if (!text) return 0;
+      return text.trim().split(/\s+/).length;
+    },
+    toggleDescription(taskId) {
+      this.expandedDescriptions[taskId] = !this.expandedDescriptions[taskId];
+    },
+    openEditTask(task) {
+      this.editingTask = { ...task };
+    },
+    handleTaskUpdated(updatedTask) {
+      if (!updatedTask || !updatedTask.id) {
+        console.warn("Payload tugas invalid:", updatedTask);
+        return;
+      }
+      for (let status of this.statuses) {
+        const taskIndex = status.tasks.findIndex(t => t.id === updatedTask.id);
+        if (taskIndex !== -1) {
+          this.$set(status.tasks, taskIndex, updatedTask);
+          break;
+        }
+      }
+      this.editingTask = null;
     },
     handleTaskDelete(taskId) {
     // Tampilkan Sweet Alert konfirmasi penghapusan
@@ -184,9 +239,7 @@ export default {
             });
         }
     });
-}
-
-
+  }
   }
 };
 </script>

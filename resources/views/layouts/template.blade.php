@@ -163,21 +163,28 @@
         @include('layouts.footer')
     </div> <!-- .wrapper -->
     <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
-    <script src="{{ asset('assets/js/quill.min.js') }}"></script>
+    <script>
+    if (!$.isWindow) {
+        $.isWindow = function(obj) {
+            return obj != null && obj === obj.window;
+        };
+    }
+    </script>
+    <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
     <script src="{{ asset('assets/js/popper.min.js') }}"></script>
     <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('assets/js/simplebar.min.js') }}"></script>
-    <script src='{{ asset('assets/js/jquery.stickOnScroll.js') }}'></script>
-    <script src='{{ asset('assets/js/select2.min.js') }}'></script>
-    <script src='{{ asset('assets/js/jquery.validate.min.js') }}'></script>
+    <script src="{{ asset('assets/js/jquery.stickOnScroll.js') }}"></script>
+    <script src="{{ asset('assets/js/select2.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.validate.min.js') }}"></script>
     <script src="{{ asset('assets/js/tinycolor-min.js') }}"></script>
     <script src="{{ asset('assets/js/config.js') }}"></script>
     <script src="{{ asset('assets/js/apps.js') }}"></script>
-    <script src='{{ asset('assets/js/jquery.dataTables.min.js') }}'></script>
-    <script src='{{ asset('assets/js/dataTables.bootstrap4.min.js') }}'></script>
-    <script src='{{ asset('assets/js/calendar.js') }}'></script>
-    <script src='{{ asset('assets/js/fullcalendar.js') }}'></script>
-    <script src='{{ asset('assets/js/fullcalendar.custom.js') }}'></script>
+    <script src="{{ asset('assets/js/jquery.dataTables.min.js') }}"></script>
+    <script src="{{ asset('assets/js/dataTables.bootstrap4.min.js') }}"></script>
+    <script src="{{ asset('assets/js/calendar.js') }}"></script>
+    <script src="{{ asset('assets/js/fullcalendar.js') }}"></script>
+    <script src="{{ asset('assets/js/fullcalendar.custom.js') }}"></script>
     <script>
         // Mendefinisikan objek bahasa Indonesia
         var indonesianLanguage = {

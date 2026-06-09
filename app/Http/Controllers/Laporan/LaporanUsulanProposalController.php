@@ -44,7 +44,7 @@ class LaporanUsulanProposalController extends Controller
             'file_laporan'          => 'required|mimes:pdf,doc,docx|max:4096',
         ]);
         $user = auth()->user();
-        $maxSubmissions = $user->plan->getFeatureLimit('submission_proposal');
+        $maxSubmissions = $user->plan ? $user->plan->getFeatureLimit('submission_proposal') : null;
 
         $submissionCount = LaporanProposal::where('mahasiswa_id', $user->id)->count();
         if ($maxSubmissions && $submissionCount >= $maxSubmissions) {

@@ -4,7 +4,7 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-12">
-                <h5 class="mb-3 h5">Selamat Datang, {{ Auth::user()->role->name }} !</h5>
+                <h5 class="mb-3 h5">Selamat Datang, {{ Auth::user()->role->name }}!</h5>
                 <div class="row mb-2">
                     <div class="col-md-8">
                         <div class="row">
@@ -159,7 +159,7 @@
                                                         <div class="card-body">
                                                             <h6 class="h6">Filter</h6>
                                                             <div class="form-row">
-                                                                <div class="form-group col-md-2">
+                                                                <div class="form-group col-md-3">
                                                                     <label for="tahun_akademik">Tahun Akademik</label>
                                                                     <select class="form-control " id="tahun_akademik">
                                                                         @foreach ($thakademik->groupBy('tahun_akademik') as $tahun => $semesters)

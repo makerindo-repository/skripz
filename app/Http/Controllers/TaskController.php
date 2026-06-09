@@ -2,6 +2,11 @@
 
 namespace App\Http\Controllers;
 
+// Sometime I gaze into the field and thought to be a goat herder.
+// Or a gardener, or something like so.
+// To lie in the soft brown earth, with the grasses waving above one's head, and listen to silence.
+// To have no yesterday, and no tomorrow. To forget time, to forgive life, to be at peace.
+
 use App\Models\Task;
 use Illuminate\Http\Request;
 
@@ -68,18 +73,18 @@ class TaskController extends Controller
             'title'         => 'required|string|max:255',
             'description'  => 'required'
         ]);
-        $tasks = Task::findOrFail($id);
-        $tasks->update([
+        $task = Task::findOrFail($id);
+        $task->update([
             'title'         => $request->title,
             'description'   => $request->description
         ]);
-        return redirect()->route('progres-bimbingan.index')->with('success', "update");
+        return response()->json($task);
     }
 
     public function destroy($id)
     {
-        $tasks = Task::findOrFail($id);
-        $tasks->delete();
-        return redirect()->route('progres-bimbingan.index')->with('success', "destroy");
+        $task = Task::findOrFail($id);
+        $task->delete();
+        return response()->json(['message' => 'Task deleted successfully']);
     }
 }

@@ -30,7 +30,7 @@
                     <div class="col-md-12">
                         <div class="card shadow-smooth custom-card">
                             <div class="card-body">
-                                @if (auth()->user()->plan->hasFeature('submission_proposal'))
+                                @if (auth()->user()->plan && auth()->user()->plan->hasFeature('submission_proposal'))
                                     <i class="small text-danger">{{ '*Maksimal ' . auth()->user()->plan->getFeatureLimit('submission_proposal') . ' proposal dapat diunggah' }}
                                     </i>
                                 @endif

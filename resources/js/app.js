@@ -11,13 +11,17 @@ window.ApexCharts = ApexCharts;
 import Swal from 'sweetalert2';
 window.Swal = Swal;
 
-window.Vue = require("vue").default;
+import { createApp } from "vue";
+import KanbanBoard from "./components/KanbanBoard.vue";
+import AddTaskForm from "./components/AddTaskForm.vue";
+import EditTaskForm from "./components/EditTaskForm.vue";
 
-// Register our components
-Vue.component("kanban-board", require("./components/KanbanBoard.vue").default);
+const app = createApp({});
 
-if (document.getElementById('app')) {
-    const app = new Vue({
-      el: "#app"
-    });
+app.component("kanban-board", KanbanBoard);
+app.component("add-task-form", AddTaskForm);
+app.component("edit-task-form", EditTaskForm);
+
+if (document.getElementById("app")) {
+    app.mount("#app");
 }

@@ -4,6 +4,12 @@ const daysContainer = document.querySelector(".days"),
   month = document.querySelector(".month"),
   todayBtn = document.querySelector(".today-btn");
 
+// Check if calendar elements exist before proceeding
+if (!daysContainer || !nextBtn || !prevBtn || !month || !todayBtn) {
+  // Calendar elements not found, skip initialization
+  // This prevents errors on pages that don't have a calendar
+} else {
+
 const months = [
   "January",
   "February",
@@ -126,3 +132,5 @@ function hideTodayBtn() {
     todayBtn.style.display = "flex";
   }
 }
+
+} // Close the conditional check for calendar elements

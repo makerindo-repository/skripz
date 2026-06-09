@@ -1,4 +1,6 @@
 {
-    "/js/app.js": "/js/app.js?id=fe69aa978d56c314613c7d4ccf4e1f6c",
-    "/css/app.css": "/css/app.css?id=1e2ce3a815270787a1070db633b42772"
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/fonts/vendor/bootstrap-icons/bootstrap-icons.woff2?92ea18a81d737146ff044ddb52010366": "/fonts/vendor/bootstrap-icons/bootstrap-icons.woff2?92ea18a81d737146ff044ddb52010366",
+    "/fonts/vendor/bootstrap-icons/bootstrap-icons.woff?1295669cd4e305c97f2cfc16d56614b8": "/fonts/vendor/bootstrap-icons/bootstrap-icons.woff?1295669cd4e305c97f2cfc16d56614b8"
 }

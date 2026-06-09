@@ -23,6 +23,7 @@ class DatabaseSeeder extends Seeder
             SettingSeeder::class,
             PermissionSeeder::class,
             RoleSeeder::class,
+            GiveAdminPermissionSeeder::class,
             KeilmuanSeeder::class,
             JabatanSeeder::class,
             JurusanSeeder::class,

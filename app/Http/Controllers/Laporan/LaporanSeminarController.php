@@ -45,7 +45,7 @@ class LaporanSeminarController extends Controller
             'file_laporan'          => 'required|mimes:pdf,doc,docx|max:4096',
         ]);
         $user = auth()->user();
-        $maxSubmissions = $user->plan->getFeatureLimit('progress_report');
+        $maxSubmissions = $user->plan ? $user->plan->getFeatureLimit('progress_report') : null;
 
         $submissionCount = LaporanSeminar::where('mahasiswa_id', $user->id)->count();
         if ($maxSubmissions && $submissionCount >= $maxSubmissions) {

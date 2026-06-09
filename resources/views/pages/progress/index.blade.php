@@ -21,11 +21,24 @@
                         </strong>
                     </div>
                     <div class="card-body">
-                        <kanban-board :initial-data="{{ $tasks }}"></kanban-board>
+                        <kanban-board :initial-data='@json($tasks)'></kanban-board>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     @include('pages.progress.create')
+    <script>
+        // Safely wrap stickOnScroll to prevent errors with Vue components
+        $(document).ready(function() {
+            try {
+                var $infoContent = $(".info-content");
+                if ($infoContent.length > 0) {
+                    $infoContent.stickOnScroll({topOffset:0,setWidthOnStick:true});
+                }
+            } catch (e) {
+                console.warn('StickOnScroll initialization failed:', e);
+            }
+        });
+    </script>
 @endsection
